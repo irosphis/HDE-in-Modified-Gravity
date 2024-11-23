@@ -1,0 +1,65 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\href{#1}{#1}}
+\providecommand{\dodoi}[1]{doi:~\href{http://doi.org/#1}{\nolinkurl{#1}}}
+\providecommand{\doeprint}[1]{\href{http://ascl.net/#1}{\nolinkurl{http://ascl.net/#1}}}
+\providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
+
+\bibitem[{Aghanim {et~al.}(2020)Aghanim, Akrami, Ashdown, Aumont, Baccigalupi, Ballardini, Banday, Barreiro, Bartolo, Basak, Battye, Benabed, Bernard, Bersanelli, Bielewicz, Bock, Bond, Borrill, Bouchet, Boulanger, Bucher, Burigana, Butler, Calabrese, Cardoso, Carron, Challinor, Chiang, Chluba, Colombo, Combet, Contreras, Crill, Cuttaia, de~Bernardis, de~Zotti, Delabrouille, Delouis, Di~Valentino, Diego, Doré, Douspis, Ducout, Dupac, Dusini, Efstathiou, Elsner, Enßlin, Eriksen, Fantaye, Farhang, Fergusson, Fernandez-Cobos, Finelli, Forastieri, Frailis, Fraisse, Franceschi, Frolov, Galeotta, Galli, Ganga, Génova-Santos, Gerbino, Ghosh, González-Nuevo, Górski, Gratton, Gruppuso, Gudmundsson, Hamann, Handley, Hansen, Herranz, Hildebrandt, Hivon, Huang, Jaffe, Jones, Karakci, Keihänen, Keskitalo, Kiiveri, Kim, Kisner, Knox, Krachmalnicoff, Kunz, Kurki-Suonio, Lagache, Lamarre, Lasenby, Lattanzi, Lawrence, Le~Jeune, Lemos, Lesgourgues, Levrier, Lewis, Liguori, Lilje, Lilley, Lindholm, López-Caniego, Lubin, Ma, Macías-Pérez, Maggio, Maino, Mandolesi, Mangilli, Marcos-Caballero, Maris, Martin, Martinelli, Martínez-González, Matarrese, Mauri, McEwen, Meinhold, Melchiorri, Mennella, Migliaccio, Millea, Mitra, Miville-Deschênes, Molinari, Montier, Morgante, Moss, Natoli, Nørgaard-Nielsen, Pagano, Paoletti, Partridge, Patanchon, Peiris, Perrotta, Pettorino, Piacentini, Polastri, Polenta, Puget, Rachen, Reinecke, Remazeilles, Renzi, Rocha, Rosset, Roudier, Rubiño-Martín, Ruiz-Granados, Salvati, Sandri, Savelainen, Scott, Shellard, Sirignano, Sirri, Spencer, Sunyaev, Suur-Uski, Tauber, Tavagnacco, Tenti, Toffolatti, Tomasi, Trombetti, Valenziano, Valiviita, Van~Tent, Vibert, Vielva, Villa, Vittorio, Wandelt, Wehus, White, White, Zacchei, \& Zonca}]{2020Planck}
+Aghanim, N., Akrami, Y., Ashdown, M., {et~al.} 2020, Astronomy \& Astrophysics, 641, A6, \dodoi{10.1051/0004-6361/201833910}
+
+\bibitem[{Armendariz-Picon {et~al.}(2001)Armendariz-Picon, Mukhanov, \& Steinhardt}]{PhysRevD.63.103510}
+Armendariz-Picon, C., Mukhanov, V., \& Steinhardt, P.~J. 2001, Phys. Rev. D, 63, 103510, \dodoi{10.1103/PhysRevD.63.103510}
+
+\bibitem[{Bengochea \& Ferraro(2009)}]{Bengochea_2009}
+Bengochea, G.~R., \& Ferraro, R. 2009, Physical Review D, 79, \dodoi{10.1103/physrevd.79.124019}
+
+\bibitem[{Blake {et~al.}(2011)Blake, Kazin, Beutler, Davis, Parkinson, Brough, Colless, Contreras, Couch, Croom, Croton, Drinkwater, Forster, Gilbank, Gladders, Glazebrook, Jelliffe, Jurek, Li, Madore, Martin, Pimbblet, Poole, Pracy, Sharp, Wisnioski, Woods, Wyder, \& Yee}]{10.1111/j.1365-2966.2011.19592.x}
+Blake, C., Kazin, E.~A., Beutler, F., {et~al.} 2011, Monthly Notices of the Royal Astronomical Society, 418, 1707, \dodoi{10.1111/j.1365-2966.2011.19592.x}
+
+\bibitem[{{Buchdahl}(1970)}]{1970MNRAS.150....1B}
+{Buchdahl}, H.~A. 1970, \mnras, 150, 1, \dodoi{10.1093/mnras/150.1.1}
+
+\bibitem[{Cai {et~al.}(2016)Cai, Capozziello, De~Laurentis, \& Saridakis}]{Cai_2016}
+Cai, Y.-F., Capozziello, S., De~Laurentis, M., \& Saridakis, E.~N. 2016, Reports on Progress in Physics, 79, 106901, \dodoi{10.1088/0034-4885/79/10/106901}
+
+\bibitem[{Carroll(2001)}]{Carroll_2001}
+Carroll, S.~M. 2001, Living Reviews in Relativity, 4, \dodoi{10.12942/lrr-2001-1}
+
+\bibitem[{Clifton {et~al.}(2012)Clifton, Ferreira, Padilla, \& Skordis}]{Clifton_2012}
+Clifton, T., Ferreira, P.~G., Padilla, A., \& Skordis, C. 2012, Physics Reports, 513, 1–189, \dodoi{10.1016/j.physrep.2012.01.001}
+
+\bibitem[{Dodelson {et~al.}(2002)Dodelson, Narayanan, Tegmark, Scranton, Budavari, Connolly, Csabai, Eisenstein, Frieman, Gunn, Hui, Jain, Johnston, Kent, Loveday, Nichol, O’Connell, Scoccimarro, Sheth, Stebbins, Strauss, Szalay, Szapudi, Vogeley, Zehavi, Annis, Bahcall, Brinkman, Doi, Fukugita, Hennessy, Ivezić, Knapp, Kunszt, Lamb, Lee, Lupton, Munn, Peoples, Pier, Rockosi, Schlegel, Stoughton, Tucker, Yanny, \& York}]{Dodelson_2002}
+Dodelson, S., Narayanan, V.~K., Tegmark, M., {et~al.} 2002, The Astrophysical Journal, 572, 140–156, \dodoi{10.1086/340225}
+
+\bibitem[{Eisenstein {et~al.}(2005)Eisenstein, Zehavi, Hogg, Scoccimarro, Blanton, Nichol, Scranton, Seo, Tegmark, Zheng, Anderson, Annis, Bahcall, Brinkmann, Burles, Castander, Connolly, Csabai, Doi, Fukugita, Frieman, Glazebrook, Gunn, Hendry, Hennessy, Ivezić, Kent, Knapp, Lin, Loh, Lupton, Margon, McKay, Meiksin, Munn, Pope, Richmond, Schlegel, Schneider, Shimasaku, Stoughton, Strauss, SubbaRao, Szalay, Szapudi, Tucker, Yanny, \& York}]{Eisenstein_2005}
+Eisenstein, D.~J., Zehavi, I., Hogg, D.~W., {et~al.} 2005, The Astrophysical Journal, 633, 560–574, \dodoi{10.1086/466512}
+
+\bibitem[{Heisenberg(2024)}]{HEISENBERG20241}
+Heisenberg, L. 2024, Physics Reports, 1066, 1, \dodoi{https://doi.org/10.1016/j.physrep.2024.02.001}
+
+\bibitem[{Moresco(2015)}]{Moresco_2015}
+Moresco, M. 2015, Monthly Notices of the Royal Astronomical Society: Letters, 450, L16–L20, \dodoi{10.1093/mnrasl/slv037}
+
+\bibitem[{Percival {et~al.}(2007)Percival, Cole, Eisenstein, Nichol, Peacock, Pope, \& Szalay}]{Percival_2007}
+Percival, W.~J., Cole, S., Eisenstein, D.~J., {et~al.} 2007, Monthly Notices of the Royal Astronomical Society, 381, 1053–1066, \dodoi{10.1111/j.1365-2966.2007.12268.x}
+
+\bibitem[{Perlmutter {et~al.}(1998)Perlmutter, Aldering, Valle, Deustua, Ellis, Fabbro, Fruchter, Goldhaber, Groom, Hook, Kim, Kim, Knop, Lidman, McMahon, Nugent, Pain, Panagia, Pennypacker, Ruiz-Lapuente, Schaefer, \& Walton}]{perlmutter_discovery_1998}
+Perlmutter, S., Aldering, G., Valle, M.~D., {et~al.} 1998, Nature, 391, 51, \dodoi{10.1038/34124}
+
+\bibitem[{Ratra \& Peebles(1988)}]{PhysRevD.37.3406}
+Ratra, B., \& Peebles, P. J.~E. 1988, Phys. Rev. D, 37, 3406, \dodoi{10.1103/PhysRevD.37.3406}
+
+\bibitem[{Riess {et~al.}(1998)Riess, Filippenko, Challis, Clocchiatti, Diercks, Garnavich, Gilliland, Hogan, Jha, Kirshner, Leibundgut, Phillips, Reiss, Schmidt, Schommer, Smith, Spyromilio, Stubbs, Suntzeff, \& Tonry}]{Riess_1998}
+Riess, A.~G., Filippenko, A.~V., Challis, P., {et~al.} 1998, The Astronomical Journal, 116, 1009–1038, \dodoi{10.1086/300499}
+
+\bibitem[{{Smoot} {et~al.}(1992){Smoot}, {Bennett}, {Kogut}, {Wright}, {Aymon}, {Boggess}, {Cheng}, {de Amici}, {Gulkis}, {Hauser}, {Hinshaw}, {Jackson}, {Janssen}, {Kaita}, {Kelsall}, {Keegstra}, {Lineweaver}, {Loewenstein}, {Lubin}, {Mather}, {Meyer}, {Moseley}, {Murdock}, {Rokke}, {Silverberg}, {Tenorio}, {Weiss}, \& {Wilkinson}}]{1992ApJ...396L...1S}
+{Smoot}, G.~F., {Bennett}, C.~L., {Kogut}, A., {et~al.} 1992, \apjl, 396, L1, \dodoi{10.1086/186504}
+
+\bibitem[{Stern {et~al.}(2010)Stern, Jimenez, Verde, Kamionkowski, \& Stanford}]{Daniel_Stern_2010}
+Stern, D., Jimenez, R., Verde, L., Kamionkowski, M., \& Stanford, S.~A. 2010, Journal of Cosmology and Astroparticle Physics, 2010, 008–008, \dodoi{10.1088/1475-7516/2010/02/008}
+
+\bibitem[{Tomita(2001)}]{10.1143/PTP.106.929}
+Tomita, K. 2001, Progress of Theoretical Physics, 106, 929, \dodoi{10.1143/PTP.106.929}
+
+\end{thebibliography}
