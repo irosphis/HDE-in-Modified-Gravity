@@ -29,14 +29,26 @@ Carroll, S.~M. 2001, Living Reviews in Relativity, 4, \dodoi{10.12942/lrr-2001-1
 \bibitem[{Clifton {et~al.}(2012)Clifton, Ferreira, Padilla, \& Skordis}]{Clifton_2012}
 Clifton, T., Ferreira, P.~G., Padilla, A., \& Skordis, C. 2012, Physics Reports, 513, 1–189, \dodoi{10.1016/j.physrep.2012.01.001}
 
+\bibitem[{Cohen {et~al.}(1999)Cohen, Kaplan, \& Nelson}]{cohen_effective_1999}
+Cohen, A.~G., Kaplan, D.~B., \& Nelson, A.~E. 1999, Phys. Rev. Lett., 82, 4971, \dodoi{10.1103/PhysRevLett.82.4971}
+
 \bibitem[{Dodelson {et~al.}(2002)Dodelson, Narayanan, Tegmark, Scranton, Budavari, Connolly, Csabai, Eisenstein, Frieman, Gunn, Hui, Jain, Johnston, Kent, Loveday, Nichol, O’Connell, Scoccimarro, Sheth, Stebbins, Strauss, Szalay, Szapudi, Vogeley, Zehavi, Annis, Bahcall, Brinkman, Doi, Fukugita, Hennessy, Ivezić, Knapp, Kunszt, Lamb, Lee, Lupton, Munn, Peoples, Pier, Rockosi, Schlegel, Stoughton, Tucker, Yanny, \& York}]{Dodelson_2002}
 Dodelson, S., Narayanan, V.~K., Tegmark, M., {et~al.} 2002, The Astrophysical Journal, 572, 140–156, \dodoi{10.1086/340225}
 
 \bibitem[{Eisenstein {et~al.}(2005)Eisenstein, Zehavi, Hogg, Scoccimarro, Blanton, Nichol, Scranton, Seo, Tegmark, Zheng, Anderson, Annis, Bahcall, Brinkmann, Burles, Castander, Connolly, Csabai, Doi, Fukugita, Frieman, Glazebrook, Gunn, Hendry, Hennessy, Ivezić, Kent, Knapp, Lin, Loh, Lupton, Margon, McKay, Meiksin, Munn, Pope, Richmond, Schlegel, Schneider, Shimasaku, Stoughton, Strauss, SubbaRao, Szalay, Szapudi, Tucker, Yanny, \& York}]{Eisenstein_2005}
 Eisenstein, D.~J., Zehavi, I., Hogg, D.~W., {et~al.} 2005, The Astrophysical Journal, 633, 560–574, \dodoi{10.1086/466512}
 
+\bibitem[{Harko {et~al.}(2011)Harko, Lobo, Nojiri, \& Odintsov}]{PhysRevD.84.024020}
+Harko, T., Lobo, F. S.~N., Nojiri, S., \& Odintsov, S.~D. 2011, Phys. Rev. D, 84, 024020, \dodoi{10.1103/PhysRevD.84.024020}
+
 \bibitem[{Heisenberg(2024)}]{HEISENBERG20241}
 Heisenberg, L. 2024, Physics Reports, 1066, 1, \dodoi{https://doi.org/10.1016/j.physrep.2024.02.001}
+
+\bibitem[{Hsu(2004)}]{Hsu_2004}
+Hsu, S.~D. 2004, Physics Letters B, 594, 13–16, \dodoi{10.1016/j.physletb.2004.05.020}
+
+\bibitem[{Li(2004)}]{LI20041}
+Li, M. 2004, Physics Letters B, 603, 1, \dodoi{https://doi.org/10.1016/j.physletb.2004.10.014}
 
 \bibitem[{Moresco(2015)}]{Moresco_2015}
 Moresco, M. 2015, Monthly Notices of the Royal Astronomical Society: Letters, 450, L16–L20, \dodoi{10.1093/mnrasl/slv037}
@@ -58,6 +70,10 @@ Riess, A.~G., Filippenko, A.~V., Challis, P., {et~al.} 1998, The Astronomical Jo
 
 \bibitem[{Stern {et~al.}(2010)Stern, Jimenez, Verde, Kamionkowski, \& Stanford}]{Daniel_Stern_2010}
 Stern, D., Jimenez, R., Verde, L., Kamionkowski, M., \& Stanford, S.~A. 2010, Journal of Cosmology and Astroparticle Physics, 2010, 008–008, \dodoi{10.1088/1475-7516/2010/02/008}
+
+\bibitem[{'t~Hooft(1993)}]{hooft2009dimensionalreductionquantumgravity}
+'t~Hooft, G. 1993, Dimensional Reduction in Quantum Gravity.
+\newblock \doarXiv{gr-qc/9310026}
 
 \bibitem[{Tomita(2001)}]{10.1143/PTP.106.929}
 Tomita, K. 2001, Progress of Theoretical Physics, 106, 929, \dodoi{10.1143/PTP.106.929}

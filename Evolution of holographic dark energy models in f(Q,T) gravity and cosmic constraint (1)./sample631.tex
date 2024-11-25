@@ -169,7 +169,7 @@
 
 \begin{document}
 
-\title{Evolution of  holographic dark energy models in $f(Q,T)$ gravity and cosmic constraint}
+\title{Holographic dark energy models in $f(Q,T)$ gravity and cosmic constraint}
 
 %% LaTeX will automatically break titles if they run longer than
 %% one line. However, you may use \\ to force a line break if
@@ -272,11 +272,13 @@ Theoretical predictions and astronomical observations indicate that there may be
 The simplest and most widely accepted theory is $\Lambda \text{CDM}$ model, where $\Lambda$ means cosmological constant predicted by Einstein(\cite{Carroll_2001}).
 Based on $\Lambda \text{CDM}$ model, the lastest observations suggest that our universe consists of 68.3\% dark energy, 26.8\% cold dark matter and 4.9\% ordinary matter (\cite{2020Planck}). However, this model is not free from problems and the problems it is facing are cosmic coincidence, fine-tuning and the Hubble tension—a discrepancy between the value of the Hubble constant $H_0$ inferred from the CMB by the Planck satellite and that obtained from local measurements using Type Ia supernovae—has sparked significant debate. 
 
-Another interesting attempt is to deviate from general ralativity toward a modified form (detailed research progress can be reviewid in \cite{Clifton_2012}). These theories assume that general relativity not work in large scale requiring a modification in action rather than standard Einstein-Hilbert action. The most well-known is $F(R)$ gravity which replaces the Ricci scalar $R$ in the action by a general function $f(R)$ (\cite{1970MNRAS.150....1B}). Another modified theory of gravity $f(T)$ extends the teleparallel equivalent of General Relativity (TEGR). It replaces the curvature scalar $R$ in action with the torsion scalar $T$, derived from the Weitzenböck connection. Also shows some interpretations for the accelerating phases of our Universe(\cite{Cai_2016,Bengochea_2009}). $f(Q)$ is generalized symmetric teleparallel gravity, with curvature and torsion both being zero, which is inspired by Weyl and Einstein's trial to unify electromagenetic and gravity. The geometric properties of gravity are described by "non-metricity". That is, the covariant derivative of the metric tensor is no longer zero (some detailed information can be found in review \cite{HEISENBERG20241}).
+Another interesting attempt is to deviate from general ralativity toward a modified form (detailed research progress can be reviewid in \cite{Clifton_2012}). These theories assume that general relativity not work in large scale requiring a modification in action rather than standard Einstein-Hilbert action. The most well-known is $F(R)$ gravity which replaces the Ricci scalar $R$ in the action by a general function $f(R)$ (\cite{1970MNRAS.150....1B}). Another modified theory of gravity $f(T)$ extends the teleparallel equivalent of General Relativity (TEGR). It replaces the curvature scalar $R$ in action with the torsion scalar $T$, derived from the Weitzenböck connection. Also shows some interpretations for the accelerating phases of our Universe(\cite{Cai_2016,Bengochea_2009}). $f(Q)$ is generalized symmetric teleparallel gravity, with curvature and torsion both being zero, which is inspired by Weyl and Einstein's trial to unify electromagenetic and gravity. The geometric properties of gravity are described by "non-metricity". That is, the covariant derivative of the metric tensor is no longer zero (some detailed information can be found in review \cite{HEISENBERG20241}). Harko et al. have proposed a new theory known as f (R, T ) gravity, where $R$ stands for the Ricci scalar and $T$ denotes the trace of energy-momentum tensor which presents a non-minimum coupling between geometry and matter(\cite{PhysRevD.84.024020}).
 
-Holographic dark energy is an famous alternative theory for the interpretation of dark energy, originating from the holographic principle.
+Holographic dark energy is an famous alternative theory for the interpretation of dark energy, originating from the holographic principle proposed by ’t Hooft(\cite{hooft2009dimensionalreductionquantumgravity}). Cohen et al. introduced the "UV-IR" relationship, highlighting that in effective quantum field theory, a system of size $L$ has its entropy and energy constrained by the Bekenstein entropy bound and black hole mass, respectively. This implies that quantum field theory is limited to describing low-energy physics outside black holes(\cite{cohen_effective_1999}). After that, Li et al. proposed that the infrared cut-off relevant to the dark energy is the size of the event horizon and obtained the dark energy density can be described as $\rho_\text{de}=3c^2 M_p^2 R_h^2$ where $R_h$ is future horizon of our universe(\cite{LI20041}). Although choose Hubble cut-off is a natural thought, but Hsu found it might lead to wrong state equation and be strongly disfavored by observational data(\cite{Hsu_2004}).
 
-In this article, we assume that
+In recent few years, some researchers try to apply HDE in some modified gravity
+
+In this article, we assume that our universe is in a $f(Q,T)$ gravity and HDE exists objectively, we will...
 
 \section{$f(Q,T)$ gravity theory and Holographic dark energy}
 In Weyl-Cartan geometry the connection can be decomposed into three parts: the Christoffel symbol $\hat{\Gamma}^\alpha_{\ \mu \nu}$, the contortion tensor $K^\alpha_{\ \mu \nu}$ and the disformation tensor $L^\alpha_{\ \mu \nu}$, so that the general affine connection can be expressed as
@@ -308,13 +310,15 @@ In weyl geometry, affine connection is not compatible with the metric tensor as
     Q_{\alpha \mu \nu}=\nabla_\alpha g_{\mu \nu}=-w_\alpha g_{\mu \nu}
 \end{equation}
 
-In gravity, we consider the action is
+We consider the general form of the Einstein-Hilbert action for the $f(Q,T)$ gravity in the unit $8\pi G=1$
 \begin{equation}
-S=\int(\frac{1}{2}f(Q,T)+\mathcal{L}_m) \sqrt{-g}  d^4x 
+S=\int(\frac{1}{2}f(Q,T)+\mathcal{L}_m) \sqrt{-g}  d^4x \label{action}
 \end{equation}
-where $f$ is an arbitrary function of the non-metricity and $T$ is the trace of the matter-energy-momentum tensor, $\mathcal{L}_m$ is known as matter Lagrangian and $g=\det (g_{\mu \nu})$ denotes determinant of metric tensor.
-
-Vary the action we can get
+where $f$ is an arbitrary function of the non-metricity , $\mathcal{L}_m$ is known as matter Lagrangian, $g=\det (g_{\mu \nu})$ denotes determinant of metric tensor, and $T=g^{\mu \nu}T_{\mu \nu}$ is the trace of the matter-energy-momentum tensor, where $T_{\mu \nu}$ is defined as
+\begin{equation}
+    T_{\mu \nu}=-\frac{2}{\sqrt{-g}}\frac{\delta(\sqrt{-g}\mathcal{L}_m)}{\delta g^{\mu \nu}}
+\end{equation}
+Vary the action \eqref{action} with respect to the metric tensor $g_{\mu\nu}$ we can get
 \begin{align}
 \delta S&=\int \left(\frac{1}{2} \delta[f(Q,T) \sqrt{-g}]+\delta(\mathcal{L}_m \sqrt{-g})\right)d^4x \\
 &= \int \frac{1}{2}\left(-\frac{1}{2}f g_{\mu\nu}\sqrt{-g}\delta g^{\mu\nu}+f_Q \sqrt{-g} \delta Q+f_T \sqrt{-g}\delta T -\frac{1}{2}T_{\mu \nu}\sqrt{-g}\delta g^{\mu\nu}\right)d^4x
@@ -324,7 +328,6 @@ Field equation is
 -\frac{2}{\sqrt{-g}}\nabla_\alpha(f_Q \sqrt{-g}P^\alpha_{\ \ \mu \nu})-\frac{1}{2}f g_{\mu \nu}+f_T(T_{\mu \nu}+\Theta_{\mu \nu})-f_Q(P_{\mu \alpha \beta}Q^\nu_{\ \ \alpha \beta}-2Q^{\alpha \beta}_{\ \ \ \ \mu}P_{\alpha \beta \nu})=T_{\mu \nu}
 \end{equation}
 In FLRW metric, given by
-
 \begin{equation}
 ds^2=-dt^2+a^2(t)\delta_{ij} dx^i dx^j
 \end{equation}
