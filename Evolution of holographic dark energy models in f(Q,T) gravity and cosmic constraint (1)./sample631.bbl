@@ -11,6 +11,12 @@ Aghanim, N., Akrami, Y., Ashdown, M., {et~al.} 2020, Astronomy \& Astrophysics, 
 \bibitem[{Armendariz-Picon {et~al.}(2001)Armendariz-Picon, Mukhanov, \& Steinhardt}]{PhysRevD.63.103510}
 Armendariz-Picon, C., Mukhanov, V., \& Steinhardt, P.~J. 2001, Phys. Rev. D, 63, 103510, \dodoi{10.1103/PhysRevD.63.103510}
 
+\bibitem[{Bahamonde {et~al.}(2015)Bahamonde, Böhmer, \& Wright}]{Bahamonde_2015}
+Bahamonde, S., Böhmer, C.~G., \& Wright, M. 2015, Physical Review D, 92, \dodoi{10.1103/physrevd.92.104042}
+
+\bibitem[{Bahamonde \& Capozziello(2017)}]{Bahamonde_2017}
+Bahamonde, S., \& Capozziello, S. 2017, The European Physical Journal C, 77, \dodoi{10.1140/epjc/s10052-017-4677-0}
+
 \bibitem[{Bengochea \& Ferraro(2009)}]{Bengochea_2009}
 Bengochea, G.~R., \& Ferraro, R. 2009, Physical Review D, 79, \dodoi{10.1103/physrevd.79.124019}
 
@@ -32,11 +38,17 @@ Clifton, T., Ferreira, P.~G., Padilla, A., \& Skordis, C. 2012, Physics Reports,
 \bibitem[{Cohen {et~al.}(1999)Cohen, Kaplan, \& Nelson}]{cohen_effective_1999}
 Cohen, A.~G., Kaplan, D.~B., \& Nelson, A.~E. 1999, Phys. Rev. Lett., 82, 4971, \dodoi{10.1103/PhysRevLett.82.4971}
 
+\bibitem[{De {et~al.}(2024)De, Loo, \& Saridakis}]{De_2024}
+De, A., Loo, T.-H., \& Saridakis, E.~N. 2024, Journal of Cosmology and Astroparticle Physics, 2024, 050, \dodoi{10.1088/1475-7516/2024/03/050}
+
 \bibitem[{Dodelson {et~al.}(2002)Dodelson, Narayanan, Tegmark, Scranton, Budavari, Connolly, Csabai, Eisenstein, Frieman, Gunn, Hui, Jain, Johnston, Kent, Loveday, Nichol, O’Connell, Scoccimarro, Sheth, Stebbins, Strauss, Szalay, Szapudi, Vogeley, Zehavi, Annis, Bahcall, Brinkman, Doi, Fukugita, Hennessy, Ivezić, Knapp, Kunszt, Lamb, Lee, Lupton, Munn, Peoples, Pier, Rockosi, Schlegel, Stoughton, Tucker, Yanny, \& York}]{Dodelson_2002}
 Dodelson, S., Narayanan, V.~K., Tegmark, M., {et~al.} 2002, The Astrophysical Journal, 572, 140–156, \dodoi{10.1086/340225}
 
 \bibitem[{Eisenstein {et~al.}(2005)Eisenstein, Zehavi, Hogg, Scoccimarro, Blanton, Nichol, Scranton, Seo, Tegmark, Zheng, Anderson, Annis, Bahcall, Brinkmann, Burles, Castander, Connolly, Csabai, Doi, Fukugita, Frieman, Glazebrook, Gunn, Hendry, Hennessy, Ivezić, Kent, Knapp, Lin, Loh, Lupton, Margon, McKay, Meiksin, Munn, Pope, Richmond, Schlegel, Schneider, Shimasaku, Stoughton, Strauss, SubbaRao, Szalay, Szapudi, Tucker, Yanny, \& York}]{Eisenstein_2005}
 Eisenstein, D.~J., Zehavi, I., Hogg, D.~W., {et~al.} 2005, The Astrophysical Journal, 633, 560–574, \dodoi{10.1086/466512}
+
+\bibitem[{Harko {et~al.}(2014)Harko, Lobo, Otalora, \& Saridakis}]{Harko_2014}
+Harko, T., Lobo, F.~S., Otalora, G., \& Saridakis, E.~N. 2014, Journal of Cosmology and Astroparticle Physics, 2014, 021–021, \dodoi{10.1088/1475-7516/2014/12/021}
 
 \bibitem[{Harko {et~al.}(2011)Harko, Lobo, Nojiri, \& Odintsov}]{PhysRevD.84.024020}
 Harko, T., Lobo, F. S.~N., Nojiri, S., \& Odintsov, S.~D. 2011, Phys. Rev. D, 84, 024020, \dodoi{10.1103/PhysRevD.84.024020}
@@ -47,11 +59,20 @@ Heisenberg, L. 2024, Physics Reports, 1066, 1, \dodoi{https://doi.org/10.1016/j.
 \bibitem[{Hsu(2004)}]{Hsu_2004}
 Hsu, S.~D. 2004, Physics Letters B, 594, 13–16, \dodoi{10.1016/j.physletb.2004.05.020}
 
+\bibitem[{Katırcı \& Kavuk(2014)}]{Kat_rc__2014}
+Katırcı, N., \& Kavuk, M. 2014, The European Physical Journal Plus, 129, \dodoi{10.1140/epjp/i2014-14163-6}
+
 \bibitem[{Li(2004)}]{LI20041}
 Li, M. 2004, Physics Letters B, 603, 1, \dodoi{https://doi.org/10.1016/j.physletb.2004.10.014}
 
 \bibitem[{Moresco(2015)}]{Moresco_2015}
 Moresco, M. 2015, Monthly Notices of the Royal Astronomical Society: Letters, 450, L16–L20, \dodoi{10.1093/mnrasl/slv037}
+
+\bibitem[{Nojiri \& Odintsov(2005)}]{NOJIRI20051}
+Nojiri, S., \& Odintsov, S.~D. 2005, Physics Letters B, 631, 1, \dodoi{https://doi.org/10.1016/j.physletb.2005.10.010}
+
+\bibitem[{Nojiri \& Odintsov(2007)}]{NOJIRI_2007}
+---. 2007, International Journal of Geometric Methods in Modern Physics, 04, 115–145, \dodoi{10.1142/s0219887807001928}
 
 \bibitem[{Percival {et~al.}(2007)Percival, Cole, Eisenstein, Nichol, Peacock, Pope, \& Szalay}]{Percival_2007}
 Percival, W.~J., Cole, S., Eisenstein, D.~J., {et~al.} 2007, Monthly Notices of the Royal Astronomical Society, 381, 1053–1066, \dodoi{10.1111/j.1365-2966.2007.12268.x}
@@ -77,5 +98,8 @@ Stern, D., Jimenez, R., Verde, L., Kamionkowski, M., \& Stanford, S.~A. 2010, Jo
 
 \bibitem[{Tomita(2001)}]{10.1143/PTP.106.929}
 Tomita, K. 2001, Progress of Theoretical Physics, 106, 929, \dodoi{10.1143/PTP.106.929}
+
+\bibitem[{Xu {et~al.}(2019)Xu, Li, Harko, \& Liang}]{Xu_2019}
+Xu, Y., Li, G., Harko, T., \& Liang, S.-D. 2019, The European Physical Journal C, 79, \dodoi{10.1140/epjc/s10052-019-7207-4}
 
 \end{thebibliography}

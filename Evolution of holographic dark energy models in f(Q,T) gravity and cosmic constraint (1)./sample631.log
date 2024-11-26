@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.11.10)  25 NOV 2024 11:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.11.10)  27 NOV 2024 02:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -552,7 +552,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 240.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Orcid-ID.png, id=33, 220.825pt x 220.825pt>
+<Orcid-ID.png, id=37, 220.825pt x 220.825pt>
 File: Orcid-ID.png Graphic file (type png)
 <use Orcid-ID.png>
 Package pdftex.def Info: Orcid-ID.png  used on input line 267.
@@ -570,33 +570,27 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 283.
 
-[2] [3] (./sample631.bbl
-Overfull \vbox (4.40114pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (4.40114pt too high) has occurred while \output is active []
-
- [4]) [5] (./sample631.aux)
+[2] [3] (./sample631.bbl [4]) [5] (./sample631.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `sample631.out' has not changed.
-(rerunfilecheck)             Checksum: A5EAB6837E100D992636B3DEF0D36696;1368.
+(rerunfilecheck)             Checksum: 6B57ABC9754B122FA487A965B5E7DC52;1494.
  ) 
 Here is how much of TeX's memory you used:
- 13562 strings out of 476065
- 199000 string characters out of 5793263
- 1967187 words of memory out of 5000000
- 35428 multiletter control sequences out of 15000+600000
+ 13598 strings out of 476065
+ 199601 string characters out of 5793263
+ 1987187 words of memory out of 5000000
+ 35456 multiletter control sequences out of 15000+600000
  568161 words of font info for 77 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 90i,11n,93p,1985b,637s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,93p,2138b,488s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on sample631.pdf (5 pages, 256552 bytes).
+Output written on sample631.pdf (5 pages, 261008 bytes).
 PDF statistics:
- 299 PDF objects out of 1000 (max. 8388607)
- 253 compressed objects within 3 object streams
- 71 named destinations out of 1000 (max. 500000)
- 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 338 PDF objects out of 1000 (max. 8388607)
+ 292 compressed objects within 3 object streams
+ 79 named destinations out of 1000 (max. 500000)
+ 70 words of extra memory for PDF output out of 10000 (max. 10000000)
 
