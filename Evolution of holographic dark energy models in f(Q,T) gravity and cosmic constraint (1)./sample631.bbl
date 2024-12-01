@@ -30,6 +30,9 @@ Bengochea, G.~R., \& Ferraro, R. 2009, Physical Review D, 79, \dodoi{10.1103/phy
 \bibitem[{Blake {et~al.}(2011)Blake, Kazin, Beutler, Davis, Parkinson, Brough, Colless, Contreras, Couch, Croom, Croton, Drinkwater, Forster, Gilbank, Gladders, Glazebrook, Jelliffe, Jurek, Li, Madore, Martin, Pimbblet, Poole, Pracy, Sharp, Wisnioski, Woods, Wyder, \& Yee}]{10.1111/j.1365-2966.2011.19592.x}
 Blake, C., Kazin, E.~A., Beutler, F., {et~al.} 2011, Monthly Notices of the Royal Astronomical Society, 418, 1707, \dodoi{10.1111/j.1365-2966.2011.19592.x}
 
+\bibitem[{Brout {et~al.}(2022)Brout, Scolnic, Popovic, Riess, Carr, Zuntz, Kessler, Davis, Hinton, Jones, Kenworthy, Peterson, Said, Taylor, Ali, Armstrong, Charvu, Dwomoh, Meldorf, Palmese, Qu, Rose, Sanchez, Stubbs, Vincenzi, Wood, Brown, Chen, Chambers, Coulter, Dai, Dimitriadis, Filippenko, Foley, Jha, Kelsey, Kirshner, Möller, Muir, Nadathur, Pan, Rest, Rojas-Bravo, Sako, Siebert, Smith, Stahl, \& Wiseman}]{Brout_2022}
+Brout, D., Scolnic, D., Popovic, B., {et~al.} 2022, The Astrophysical Journal, 938, 110, \dodoi{10.3847/1538-4357/ac8e04}
+
 \bibitem[{{Buchdahl}(1970)}]{1970MNRAS.150....1B}
 {Buchdahl}, H.~A. 1970, \mnras, 150, 1, \dodoi{10.1093/mnras/150.1.1}
 
@@ -78,6 +81,10 @@ Katırcı, N., \& Kavuk, M. 2014, The European Physical Journal Plus, 129, \dodo
 \bibitem[{Li(2004)}]{LI20041}
 Li, M. 2004, Physics Letters B, 603, 1, \dodoi{https://doi.org/10.1016/j.physletb.2004.10.014}
 
+\bibitem[{Lu {et~al.}(2019)Lu, Zhao, \& Chee}]{lu2019cosmologysymmetricteleparallelgravity}
+Lu, J., Zhao, X., \& Chee, G. 2019, Cosmology in symmetric teleparallel gravity and its dynamical system.
+\newblock \doarXiv{1906.08920}
+
 \bibitem[{Moresco(2015)}]{Moresco_2015}
 Moresco, M. 2015, Monthly Notices of the Royal Astronomical Society: Letters, 450, L16–L20, \dodoi{10.1093/mnrasl/slv037}
 
@@ -91,6 +98,9 @@ Nojiri, S., \& Odintsov, S.~D. 2005, Physics Letters B, 631, 1, \dodoi{https://d
 \bibitem[{Nojiri \& Odintsov(2007)}]{NOJIRI_2007}
 ---. 2007, International Journal of Geometric Methods in Modern Physics, 04, 115–145, \dodoi{10.1142/s0219887807001928}
 
+\bibitem[{Padilla {et~al.}(2021)Padilla, Tellez, Escamilla, \& Vazquez}]{Padilla_2021}
+Padilla, L.~E., Tellez, L.~O., Escamilla, L.~A., \& Vazquez, J.~A. 2021, Universe, 7, 213, \dodoi{10.3390/universe7070213}
+
 \bibitem[{Percival {et~al.}(2007)Percival, Cole, Eisenstein, Nichol, Peacock, Pope, \& Szalay}]{Percival_2007}
 Percival, W.~J., Cole, S., Eisenstein, D.~J., {et~al.} 2007, Monthly Notices of the Royal Astronomical Society, 381, 1053–1066, \dodoi{10.1111/j.1365-2966.2007.12268.x}
 
@@ -102,6 +112,9 @@ Ratra, B., \& Peebles, P. J.~E. 1988, Phys. Rev. D, 37, 3406, \dodoi{10.1103/Phy
 
 \bibitem[{Riess {et~al.}(1998)Riess, Filippenko, Challis, Clocchiatti, Diercks, Garnavich, Gilliland, Hogan, Jha, Kirshner, Leibundgut, Phillips, Reiss, Schmidt, Schommer, Smith, Spyromilio, Stubbs, Suntzeff, \& Tonry}]{Riess_1998}
 Riess, A.~G., Filippenko, A.~V., Challis, P., {et~al.} 1998, The Astronomical Journal, 116, 1009–1038, \dodoi{10.1086/300499}
+
+\bibitem[{Scolnic {et~al.}(2022)Scolnic, Brout, Carr, Riess, Davis, Dwomoh, Jones, Ali, Charvu, Chen, Peterson, Popovic, Rose, Wood, Brown, Chambers, Coulter, Dettman, Dimitriadis, Filippenko, Foley, Jha, Kilpatrick, Kirshner, Pan, Rest, Rojas-Bravo, Siebert, Stahl, \& Zheng}]{Scolnic_2022}
+Scolnic, D., Brout, D., Carr, A., {et~al.} 2022, The Astrophysical Journal, 938, 113, \dodoi{10.3847/1538-4357/ac8b7a}
 
 \bibitem[{Shaikh {et~al.}(2020)Shaikh, Gore, \& Katore}]{shaikh_holographic_2020}
 Shaikh, A., Gore, S., \& Katore, S. 2020, New Astronomy, 80, 101420, \dodoi{10.1016/j.newast.2020.101420}

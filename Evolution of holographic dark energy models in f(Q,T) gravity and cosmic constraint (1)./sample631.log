@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.11.10)  1 DEC 2024 18:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.11.10)  2 DEC 2024 02:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -540,69 +540,76 @@ Package hyperref Info: Link coloring ON on input line 170.
 Class revtex4-1 Info: Overriding lineo.sty, restoring output routine, on input line 170.
 Class revtex4-1 Info: Line numbering not turned on yet on input line 170.
 Class revtex4-1 Info: Overriding \@LN@LLerror on input line 170.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 240.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 253.
  (/usr/share/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 240.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 253.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 240.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 253.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 <Orcid-ID.png, id=37, 220.825pt x 220.825pt>
 File: Orcid-ID.png Graphic file (type png)
 <use Orcid-ID.png>
-Package pdftex.def Info: Orcid-ID.png  used on input line 267.
+Package pdftex.def Info: Orcid-ID.png  used on input line 280.
 (pdftex.def)             Requested size: 9.0pt x 8.99997pt.
 File: Orcid-ID.png Graphic file (type png)
 <use Orcid-ID.png>
-Package pdftex.def Info: Orcid-ID.png  used on input line 267.
+Package pdftex.def Info: Orcid-ID.png  used on input line 280.
+(pdftex.def)             Requested size: 9.0pt x 8.99997pt.
+File: Orcid-ID.png Graphic file (type png)
+<use Orcid-ID.png>
+Package pdftex.def Info: Orcid-ID.png  used on input line 280.
+(pdftex.def)             Requested size: 9.0pt x 8.99997pt.
+File: Orcid-ID.png Graphic file (type png)
+<use Orcid-ID.png>
+Package pdftex.def Info: Orcid-ID.png  used on input line 280.
+(pdftex.def)             Requested size: 9.0pt x 8.99997pt.
+File: Orcid-ID.png Graphic file (type png)
+<use Orcid-ID.png>
+Package pdftex.def Info: Orcid-ID.png  used on input line 280.
 (pdftex.def)             Requested size: 9.0pt x 8.99997pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./orcid-ID.png>] [2] [3]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 284.
+(hyperref)                removing `math shift' on input line 297.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 284.
+(hyperref)                removing `math shift' on input line 297.
 
-[4] [5] [6]
-Overfull \hbox (62.55229pt too wide) detected at line 422
-[][][]\OML/cmm/m/it/12 c[] \OT1/cmr/m/n/12 = [] = []
- []
-
-[7] (./sample631.bbl [8] [9]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 110.
+[4] [5] [6] [7] [8] [9] (./sample631.bbl [10] [11]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 123.
  (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 110.
-) [10] (./sample631.aux)
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 123.
+) [12] (./sample631.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `sample631.out' has not changed.
-(rerunfilecheck)             Checksum: 43EDB426AD8470F539E9DE420CB6E3EF;1258.
+(rerunfilecheck)             Checksum: 026BE117EE40437BFE7231848C8E6F80;1283.
  ) 
 Here is how much of TeX's memory you used:
- 13681 strings out of 476065
- 201310 string characters out of 5793263
- 1950187 words of memory out of 5000000
- 35520 multiletter control sequences out of 15000+600000
- 569817 words of font info for 84 fonts, out of 8000000 for 9000
+ 13712 strings out of 476065
+ 201893 string characters out of 5793263
+ 1953187 words of memory out of 5000000
+ 35539 multiletter control sequences out of 15000+600000
+ 570746 words of font info for 87 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 90i,12n,93p,2214b,665s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,93p,2214b,669s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on sample631.pdf (10 pages, 265014 bytes).
+Output written on sample631.pdf (12 pages, 277050 bytes).
 PDF statistics:
- 420 PDF objects out of 1000 (max. 8388607)
- 368 compressed objects within 4 object streams
- 98 named destinations out of 1000 (max. 500000)
+ 457 PDF objects out of 1000 (max. 8388607)
+ 402 compressed objects within 5 object streams
+ 108 named destinations out of 1000 (max. 500000)
  70 words of extra memory for PDF output out of 10000 (max. 10000000)
 
