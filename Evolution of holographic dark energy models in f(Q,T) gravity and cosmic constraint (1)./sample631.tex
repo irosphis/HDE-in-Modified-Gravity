@@ -282,21 +282,29 @@ Various attempts to reconstruct or discuss HDE in modified gravity have been com
 In this article, we assume that our universe is in a $f(Q,T)$ gravity and HDE exists objectively, we will...
 
 \section{$f(Q,T)$ gravity theory and Holographic dark energy}
-In Weyl-Cartan geometry the connection can be decomposed into three parts: the Christoffel symbol $\hat{\Gamma}^\alpha_{\ \mu \nu}$, the contortion tensor $K^\alpha_{\ \mu \nu}$ and the disformation tensor $L^\alpha_{\ \mu \nu}$, so that the general affine connection can be expressed as
+
+Weyl in 1918 introduced an extension of Riemannian geometry, using a non-metricity tensor $Q_{\alpha \mu \nu}=\nabla_\alpha g_{\mu \nu}=-w_\alpha g_{\mu \nu}$, which describes how the length of a vector changes during parallel transport where $w_\alpha$ coincides with those of the electromagnetic potentials (\cite{Weyl:1918ib}). Cartan geometry generalizes Riemannian geometry by introducing torsion whose connection is asymmetric, with a torsion tensor $T^{\alpha }{}_{\mu \nu }$ that quantifies how vector twists as it is parallel transported.
+
+In Weyl-Cartan geometry, a connection
+can be decomposed into three independent parts: the Christoffel symbol $\hat{\Gamma}^\alpha_{\ \mu \nu}$, the contortion tensor $K^\alpha_{\ \mu \nu}$ and the disformation tensor $L^\alpha_{\ \mu \nu}$, so that the general affine connection can be expressed as (\cite{J_rv_2018})
 \begin{equation}
-    \Gamma^\alpha_{\ \mu \nu}=\hat{\Gamma}^\alpha_{\ \mu \nu}+K^\alpha_{\ \mu \nu}+L^\alpha_{\ \mu \nu}
+    \Gamma^\alpha_{\ \mu \nu}=\hat{\Gamma}^\alpha_{\ \mu \nu}+K^{\alpha}{}_{\mu \nu}+L^\alpha{}_{\mu \nu}
 \end{equation}
-The first term $\hat{\Gamma}^\alpha_{\ \mu \nu}$ is the Levi-civita connection of metric $g_{\mu\nu}$, given by
-\begin{equation}
-\hat{\Gamma}^\alpha_{\ \mu \nu}=\frac{1}{2}g^{\alpha \beta}(\partial_\mu g_{\beta \nu}+\partial_\nu g_{\beta \epsilon}-\partial_\beta g_{\epsilon \nu})
-\end{equation}
+whereas
+
+The first term $\hat{\Gamma}^\alpha_{\ \mu \nu}$ is the Levi-civita connection of metric $g_{\mu\nu}$, given by standard form
+\begin{align}
+\hat{\Gamma}^\alpha{}_{\mu \nu}& =\frac{1}{2}g^{\alpha \beta}(\partial_\mu g_{\beta \nu}+\partial_\nu g_{\beta \mu}-\partial_\beta g_{\mu \nu}) \\
+K^{\alpha }{}_{\mu \nu }& = \frac{1}{2}T^{\alpha }{}_{\mu \nu }+T_{(\mu}{}^{\alpha }{}_{\nu )} \\
+L^{\alpha}{}_{\mu\nu}& = \frac{1}{2}Q^{\alpha}_{}{\mu\nu}-Q_{(\mu}{}^{\alpha }{}_{\nu)}
+\end{align}
 The second term $K^\alpha_{\ \mu \nu}$ is the contortion tensor 
 \begin{equation}
- K^{\alpha}_{\,\,\mu\nu} =\frac{1}{2}T^{\alpha}_{\,\,\mu\nu} +T^{\,\ ,\,\alpha}_{(\mu\,\,\,\nu)}
+    K^{\alpha }{}_{\mu \nu }\equiv \frac{1}{2}T^{\alpha }{}_{\mu \nu }+T_{(\mu}{}^{\alpha }{}_{\nu )}
 \end{equation}
-The Last term is distortion tensor $L^{\alpha}_{\,\,\mu\nu}$, given by
+Where torsion tensor is defined as $T^{\alpha}{}_{\mu\nu}\equiv 2\Gamma^{\alpha}{}_{[\mu\nu]}$. The Last term is the distortion tensor $L^{\alpha}{}_{\mu\nu}$, given by
 \begin{equation}
-L^{\alpha}_{\,\,\mu\nu} = \frac{1}{2}Q^{\alpha}_{\,\,\mu\nu}-Q^{\ ,\,\,\alpha}_{(\mu\,\,\,\nu)}
+L^{\alpha}{}_{\mu\nu} = \frac{1}{2}Q^{\alpha}_{}{\mu\nu}-Q_{(\mu}{}^{\alpha }{}_{\nu)}
 \end{equation}
 Enclose $Q^{\alpha}_{\,\,\mu\nu}$with nonmetricity tensor
 \begin{align}
@@ -306,10 +314,6 @@ T^{\lambda}{}_{\mu\nu} &\equiv
  R^{\sigma}{}_{\rho\mu\nu} &\equiv \partial_{\mu} \Gamma^{\sigma}{}_{\nu\rho}\! - \! \partial_{\nu} \Gamma^{\sigma}{}_{\mu\rho}\! +\! \Gamma^{\alpha}{}_{\nu\rho} \Gamma^{\sigma}{}_{\mu\alpha} \!-\!\Gamma^{\alpha}{}_{\mu \rho} \Gamma^{\sigma}{}_{\nu\alpha}~ ,
 \end{align}
 
-In weyl geometry, affine connection is not compatible with the metric tensor as 
-\begin{equation}
-    Q_{\alpha \mu \nu}=\nabla_\alpha g_{\mu \nu}=-w_\alpha g_{\mu \nu}
-\end{equation}
 
 We consider the general form of the Einstein-Hilbert action for the $f(Q,T)$ gravity in the unit $8\pi G=1$
 \begin{equation}

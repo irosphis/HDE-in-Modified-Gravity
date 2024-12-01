@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex sample631"] 1732901736.57432 "sample631.aux" "sample631.bbl" "sample631" 1732901775.97424 0
+["bibtex sample631"] 1733047730.31238 "sample631.aux" "sample631.bbl" "sample631" 1733047730.87601 0
   "./aasjournal.bst" 1731713846 36130 1e2d4614828005814bd64e3c665b8e99 ""
-  "./sample631.bib" 1732896608.86837 36725 97696ea00c71252515a36e55faee45c8 ""
-  "sample631.aux" 1732901775.83449 9404 31f369440a9fe520165ea41b6ff93a33 "pdflatex"
+  "./sample631.bib" 1733047508.80981 37394 e2eaea8a8c3b860338caeb0fb8020cd6 ""
+  "sample631.aux" 1733047730.75077 9581 5b32a6d4d755d584d335bb7e73b3beee "pdflatex"
   (generated)
   "sample631.bbl"
   "sample631.blg"
   (rewritten before read)
-["pdflatex"] 1732901775.4492 "/home/sralus/workwork/modify-gravity/Evolution of holographic dark energy models in f(Q,T) gravity and cosmic constraint (1)./sample631.tex" "sample631.pdf" "sample631" 1732901775.97439 0
-  "/home/sralus/workwork/modify-gravity/Evolution of holographic dark energy models in f(Q,T) gravity and cosmic constraint (1)./sample631.tex" 1732901775.28784 27827 7fcca8f214aa7917c80fff6271e15964 ""
+["pdflatex"] 1733047730.35724 "/home/sralus/workwork/modify-gravity/Evolution of holographic dark energy models in f(Q,T) gravity and cosmic constraint (1)./sample631.tex" "sample631.pdf" "sample631" 1733047730.87622 0
+  "/home/sralus/workwork/modify-gravity/Evolution of holographic dark energy models in f(Q,T) gravity and cosmic constraint (1)./sample631.tex" 1733047729.6441 28517 dfd643ab85d41c755e756d2b298154e1 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1727349926 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/helvetic/phvr.tfm" 1727349926 2504 ba6584b616b92101c768b6c4ffb32dd0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1727349926 1004 54797486969f23fa377b128694d548df ""
@@ -129,10 +129,10 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1731253550 7113309 655ce7399aaaae4166ad1e02bc3e3117 ""
   "aastex631.cls" 1731713846 231673 3a8503ea2dc529eec05658a2b11d12d0 ""
   "orcid-ID.png" 1731713846 27604 8527c7c3c14d5c207af947385c09fd77 ""
-  "sample631.aux" 1732901775.83449 9404 31f369440a9fe520165ea41b6ff93a33 "pdflatex"
-  "sample631.bbl" 1732901736.61192 11614 8ed22058b68fc32fe1263b50638db319 "bibtex sample631"
-  "sample631.out" 1732901775.83783 1258 43edb426ad8470f539e9de420cb6e3ef "pdflatex"
-  "sample631.tex" 1732901775.28784 27827 7fcca8f214aa7917c80fff6271e15964 ""
+  "sample631.aux" 1733047730.75077 9581 5b32a6d4d755d584d335bb7e73b3beee "pdflatex"
+  "sample631.bbl" 1733047730.35077 11920 e83fc2aa53b042f5c27f09669a9c5735 "bibtex sample631"
+  "sample631.out" 1733047730.75077 1258 43edb426ad8470f539e9de420cb6e3ef "pdflatex"
+  "sample631.tex" 1733047729.6441 28517 dfd643ab85d41c755e756d2b298154e1 ""
   (generated)
   "sample631.aux"
   "sample631.log"
