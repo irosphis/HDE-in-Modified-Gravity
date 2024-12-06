@@ -26,7 +26,7 @@
 %% does not need to be explicitly stated.
 %%
 %% using aastex version 6.3
-\documentclass[manuscript]{aastex631}
+\documentclass[preprint]{aastex631}
 \usepackage{amsmath}
 
 %% The default is a single spaced, 10 point font, single spaced article.
@@ -294,7 +294,7 @@ Various attempts to reconstruct or discuss HDE in modified gravity have been com
 
 In this article, we assume that our universe is in a $f(Q,T)$ gravity and HDE exists as one component of fluid, we will breifly introduce $f(Q,T)$ gravity and HDE model in section \ref{sec:mghde}.
 
-\section{$f(Q,T)$ gravity theory and Holographic dark energy}\label{sec:mghde}
+\section{$f(Q,T)$ gravity theory}\label{sec:mghde}
 
 Weyl in 1918 introduced an extension of Riemannian geometry, using a non-metricity tensor $Q_{\alpha \mu \nu}=\nabla_\alpha g_{\mu \nu}=-w_\alpha g_{\mu \nu}$, which describes how the length of a vector changes during parallel transport where $w_\alpha$ coincides with those of the electromagnetic potentials (\cite{Weyl:1918ib}). Weyl geometry can also be extended to so-called Weyl-Cartan geometry by considering the torsion of spacetime.
 
@@ -317,7 +317,7 @@ T^{\alpha}{}_{\mu\nu} &\equiv 2\Gamma^{\alpha}{}_{[\mu\nu]} =\Gamma^{\alpha}{}_{
 \end{align}
 The non-metric tensor has two independent traces, namely $Q_{\mu}=Q_{\mu}{}^{\alpha}{}_{\alpha}$ and $\tilde{Q}^{\mu}=Q_{\alpha}{}^{\mu \alpha}$, so we can get quadratic non-metricity scalar as
 \begin{equation}
-    Q=\dfrac{1}{4}Q_{\alpha\beta\mu}Q^{\alpha\beta\mu}-\dfrac{1}{2}Q_{\alpha\beta\mu}Q^{\beta\mu\alpha}-\dfrac{1}{4}Q_{\alpha}Q^{\alpha}+\dfrac{1}{2}Q_{\alpha}\tilde{Q}^\alpha 
+    Q=\dfrac{1}{4}Q_{\alpha\beta\mu}Q^{\alpha\beta\mu}-\dfrac{1}{2}Q_{\alpha\beta\mu}Q^{\beta\mu\alpha}-\dfrac{1}{4}Q_{\alpha}Q^{\alpha}+\dfrac{1}{2}Q_{\alpha}\tilde{Q}^\alpha\label{Qscalar} 
 \end{equation} 
 
 We consider the general form of the Einstein-Hilbert action for the $f(Q,T)$ gravity in the unit $8\pi G=1$
@@ -341,7 +341,7 @@ sider the following action
 \begin{equation}
 -\frac{2}{\sqrt{-g}}\nabla_\alpha(f_Q \sqrt{-g}P^\alpha_{\ \ \mu \nu})-\frac{1}{2}f g_{\mu \nu}+f_T(T_{\mu \nu}+\Theta_{\mu \nu})-f_Q(P_{\mu \alpha \beta}Q^\nu_{\ \ \alpha \beta}-2Q^{\alpha \beta}_{\ \ \ \ \mu}P_{\alpha \beta \nu})=T_{\mu \nu}\label{FieldEq}
 \end{equation}
-Where tensor $\Theta_{\mu \nu}$ are defined as $g^{\alpha\beta}\delta T_{\alpha\beta}/{\delta g^{\mu\nu}}$ and $P^{\alpha}_{\mu\nu}$ is the super-potential of the model. In the case of a globally vanishing affine connections, the non-metricity tensor depends on the metric
+Where tensor $\Theta_{\mu \nu}$ are defined as $g^{\alpha\beta}\delta T_{\alpha\beta}/{\delta g^{\mu\nu}}$ and $P^{\alpha}_{\mu\nu}$ is the super-potential of the model (detailed discussion found in \cite{Xu_2019}). In the case of a globally vanishing affine connections, the non-metricity tensor depends on the metric
 only and Einstein’s GR action is recovered. This occurs
 under the choice of the coincidence gauge, in which the
 origin of spacetime and that of the tangent space coincide. In the coincident gauge with $\Gamma^{\alpha}_{\mu\nu}=0$ we have $Q=6H^2$ (detailed discussion can be found in \cite{lu2019cosmologysymmetricteleparallelgravity}).
@@ -356,7 +356,10 @@ used to define the Hubble expansion rate $H=\dot{a}/a$ and the lapse function $N
 \rho &=\frac{f}{2}-6f_Q H^2-\frac{2f_T}{1+f_T}(\dot{f}_QH+f_Q \dot{H}) \\
 p &=-\frac{f}{2}+6f_Q H^2+2(\dot{f}_QH+f_Q \dot{H})
 \end{align}
-where $f(Q,T)$ is simplified to $f$, and $f_Q=\partial f/\partial Q$, $f_T=\partial f/\partial T$, $\dot{f}_Q=\partial f_Q/\partial t$.
+where $f(Q,T)$ is simplified to $f$, and $f_Q=\partial f/\partial Q$, $f_T=\partial f/\partial T$, $\dot{f}_Q=\partial f_Q/\partial t$. By the usage of Eq. \eqref{Qscalar} and the line element \eqref{FLRW}, there exists following relationship (The detailed derivation can be found in the appendix of \cite{Xu_2019})
+\begin{equation}
+    Q=6H(t)^2
+\end{equation}
 
 The equation of state (EoS) parameter is given by
 \begin{equation}
@@ -375,16 +378,15 @@ Effective EoS parameter denote geometry qualities.
 \end{align}
 The effective energy density \(\rho_{\text{eff}}\) and pressure \(p_{\text{eff}}\) described above highlight the coupling between geometry and matter within the \(f(Q, T)\) gravity framework. The presence of \(f_T\) explicitly links the geometric modifications to the energy density \(\rho\) and pressure \(p\) of the matter content. Additionally, the term involving \(\dot{f}_Q\) introduces time dependence in the coupling, suggesting a dynamical interplay between the evolution of spacetime geometry and matter distribution. 
 
-EoS parameter for equivalent dark energy
+Furthermore, the effective EoS using Eq.\eqref{F1}\eqref{F2} can be written as
 \begin{equation}
-w_{\text{eff}}=\frac{p_{\text{eff}}}{\rho_{\text{eff}}} = -\frac{f - 8\dot{f}_Q H + 2[(1 + f_T)\rho + (2 + f_T)p]}{f - 2[(1 + f_T)\rho + f_T p]}
+w_{\text{eff}}=\frac{p_{\text{eff}}}{\rho_{\text{eff}}} = \frac{-2\dot{H}-3H^2}{3H^2}= -\frac{f - 8\dot{f}_Q H + 2[(1 + f_T)\rho + (2 + f_T)p]}{f - 2[(1 + f_T)\rho + f_T p]}
 \end{equation}
 
 
 
-
-\section{Cosmic solutions}
-
+\section{Cosmic solutions with holographic dark energy}
+In order to understand the characteristic properties of the dark energy driving the recent acceleration of the Universe, we need to parameterize its EoS.
 We consider a simple form of $f$ 
 \begin{equation}
     f(Q,T)=m Q^n+\alpha T
@@ -397,10 +399,10 @@ The deceleration factor, which describes the acceleration or deceleration of the
 \end{equation}
 Use Eq.\eqref{F1} and \eqref{F2} we can solve the energy density of fluid component in field equation
 \begin{align}
-    \rho_\text{de}&= \frac{m 6^{n-1} (2 n-1) \left(H(t)^2\right)^{n-1} \left((3 \alpha +2) n H'(t)+3 (\alpha +1) H(t)^2\right)}{\left(2 \alpha ^2+3 \alpha +1\right) w_\text{de}} \label{RD}\\
-    \rho_m&= \frac{m 6^{n-1} (2 n-1) \left(H(t)^2\right)^{n-1} \left(n (\alpha  (w_\text{de}-3)-2) H'(t)-3 (\alpha +1) (w_\text{de}+1) H(t)^2\right)}{\left(2 \alpha ^2+3 \alpha +1\right) w_\text{de}}\label{RM}
+    \rho_\text{de}&= \frac{m (2 n-1) \left(6H(t)^2\right)^{n-1} \left((3 \alpha +2) n H'(t)+3 (\alpha +1) H(t)^2\right)}{\left(2 \alpha ^2+3 \alpha +1\right) w_\text{de}} \label{RD}\\
+    \rho_m&= \frac{m (2 n-1) \left(6H(t)^2\right)^{n-1} \left(n (\alpha  (w_\text{de}-3)-2) H'(t)-3 (\alpha +1) (w_\text{de}+1) H(t)^2\right)}{\left(2 \alpha ^2+3 \alpha +1\right) w_\text{de}}\label{RM}
 \end{align}
-And the HDE energy density in Hubble cut-off can be described as (\cite{LI20041})
+Taking the entire universe into account and regarding the vacuum energy as dark energy, Li suggested that the holographic dark energy density is given by saturating the above inequality up to a coefficient $c$ as free parameter (\cite{LI20041}). Consider a simple case, the HDE energy density in Hubble cut-off can be described as 
 \begin{equation}
     \rho_{de}=3c^2 H(t)^2 \label{HDE}
 \end{equation}
@@ -412,21 +414,31 @@ Combine equation \eqref{RD},\eqref{RM} and \eqref{HR} and relation \eqref{HR}, w
 \begin{equation}
     3 c^2 H(z)^2=\frac{m 6^{n-1} (2 n-1) \left(H(z)^2\right)^{n-1} \left(3 (\alpha +1) H(z)^2-(3 \alpha +2) n (z+1) H(z) H'(z)\right)}{\left(2 \alpha ^2+3 \alpha +1\right) {w_\text{de}}}
 \end{equation}
+We first assume that $\alpha=0$, So that we don't need to consider the dynamic tensor coupling terms $f=mQ^n$. To get an analytic form, we also assume that $n=1$, so we can get
+\begin{equation}
+    H(z)\to H_0 m^{\frac{3}{2} \left(\frac{c^2 w_\text{de}}{m}-1\right)} (m (z+1))^{\frac{3}{2}-\frac{3 c^2 w_\text{de}}{2 m}}
+\end{equation}
 In principle, we can get the form of $H(z)$ through the solution of above differential equation. However, solving higher-order differential equations analytically is difficult. So we consider $n=1$ firstly to simplify calculation and set the initial condition $H(z=0)=H_0$ which denotes value of the Hubble parameter at present, get analytically solution as follow
 \begin{equation}
     H(z)= H_0 (1+z)^{\frac{3 (1+\alpha) \left(m-c^2 w_\text{de}(1+2\alpha)\right)}{m(2+3\alpha)}}
 \end{equation}
-In this case, the deceleration factor is
+We thus obtain the power-law evolution of the Universe which avoids the big-bang singularity similar to the $f(R,T)$ situation in (\cite{singhStatefinderDiagnosisHolographic2016}). In this case, the deceleration factor is
 \begin{equation}
     q = -1+\frac{3 (\alpha +1) \left(m-(2 \alpha +1) c^2 w_\text{de}\right)}{(3 \alpha +2) m}
 \end{equation}
-In a general barrow entropy, the HDE energy density is
+Here we have a constant deceleration factor depending on the parameter. When we select a particular parameter value, it will show acceleration or deceleration characteristics. If $q<0$, it will show the characteristics of accelerated expansion.
+
+However, since there is no evolution, there is no phase transition in such a universe. To solve this problem, we consider a generalized holographic entropy that arises from quantum-gravitational effects which deform the black-hole surface by giving it an intricate, fractal form (\cite{PhysRevD.102.123525}). In this case, the HDE energy density is define as
 \begin{equation}
     \rho_{de}=3c^2 H(t)^{2-\Delta}
 \end{equation}
 If we set $\Delta=1$ the 
 \begin{equation}
     H(z)= H_0 (1+z)^{\frac{3 (\alpha +1)}{3\alpha +2}}-(1+2 \alpha) c^2 w_{de} \left((1+z)^{\frac{3 (\alpha +1)}{3\alpha +2}}-1\right)\frac{1}{m}
+\end{equation}
+In this case, the deceleration factor is
+\begin{equation}
+    q=\frac{(2 \alpha +1) c^2 w_\text{de} \left(3 \alpha +(z+1)^{\frac{3 (\alpha +1)}{3 \alpha +2}}+2\right)-H_0 m (z+1)^{\frac{3 (\alpha +1)}{3 \alpha +2}}}{(3 \alpha +2) \left((2 \alpha +1) c^2 w_\text{de} \left((z+1)^{\frac{3 (\alpha +1)}{3 \alpha +2}}-1\right)-H_0 m (z+1)^{\frac{3 (\alpha +1)}{3 \alpha +2}}\right)}
 \end{equation}
 in other situation, if $n \neq 1$ or $\Delta \neq 1$, higher-order differential equations are difficult to solve analytically, so we can only obtain numerical solutions, relative discussion can be found in section().
 
@@ -447,9 +459,70 @@ where \(D_i\) represents the \(i\)-th data point, \(T_i(\mathbf{\theta})\) is th
 
 For our analysis, we combine three independent observational datasets:
 
-1. Baryon Acoustic Oscillations (BAO): The BAO measurements provide a standard ruler for distance measurements in the universe. We use the data from the SDSS-III Baryon Oscillation Spectroscopic Survey (BOSS) and other relevant surveys to constrain the cosmological parameters.
+1. Baryon Acoustic Oscillations (BAO): The BAO measurements provide a standard ruler for distance measurements in the universe. We use the data from the SDSS-III Baryon Oscillation Spectroscopic Survey (BOSS) and other relevant surveys to constrain the cosmological parameters. The comoving horizon distance, the transverse comoving distance
+and the volume-averaged distance ombineing line-of-sight and transverse distances defined as follow
+\begin{align}
+    D_H&=\frac{c}{H(z)} \\
+    D_M&=\frac{D_L}{1+z}\\
+    D_V&=\left[\frac{cz}{H(z)}\right]^{1/3}\left[\frac{D_L}{1+z}\right]^{2/3}
+\end{align}
+Where $D_L$ is the luminosity distance. When scaled by the sound horizon at the drag epoch \(r_d\) , ratios such as \(D_H/r_d\), \(D_M/r_d\), and \(D_V/r_d\) serve as important observables for constraining cosmological models and testing the standard model of cosmology.
 
-2. Chronometers Data (OHD): The Hubble parameter measurements, known as the chronometers data, provide independent estimates of the Hubble parameter \(H(z)\) at various redshifts. These data serve as an important probe of the expansion rate of the universe.
+\begin{table}
+    \centering
+    % \footnotesize
+    % \setlength{\tabcolsep}{.7em}
+    % \renewcommand{\arraystretch}{1.2}
+    % \resizebox{\hsize}{!}
+    \begin{center}
+    \begin{tabular}{lcccc}
+    \hline\hline
+    Survey          & $z_\text{eff}$ & $D_{\rm M}/r_{\rm d}$
+                                     & $D_{\rm H}/r_{\rm d}$
+                                     & $D_{\rm V}/r_{\rm d}$\\
+    \hline
+    6dFGS		    & $0.106$	& & & $2.98\pm0.13$ \\
+    \hline
+    SDSS MGS 		& $0.15$	& & & $4.51\pm0.14$ \\
+    SDSS DR12		& $0.38$    & $10.27\pm0.15$
+                                & $24.89\pm 0.58$ & \\
+    SDSS DR12		& $0.51$    & $13.38\pm0.18$
+                                & $22.43\pm 0.48$ & \\
+    SDSS DR16 LRG	& $0.70$    & $17.65\pm0.30$
+                                & $19.78\pm0.46$ & \\
+    SDSS DR16 ELG	& $0.85$	& $19.50\pm1.00$
+                                & $19.60\pm2.10$ & \\
+    SDSS DR16 QSO	& $1.48$    & $30.21\pm0.79$
+                                & $13.23\pm0.47$ & \\
+    SDSS DR16 Ly$\alpha$--Ly$\alpha$
+                    & $2.33$    & $37.60\pm1.90$
+                                & $8.93\pm0.28$ & \\
+    SDSS DR16 Ly$\alpha$--QSO	
+                    & $2.33$    & $37.30\pm1.70$
+                                & $9.08\pm0.34$ & \\
+    \hline
+    DESI BGS 		& $0.30$    & & & $7.93\pm0.15$ \\
+    DESI LRG1	 	& $0.51$ 	& $13.62\pm0.25$
+                                & $20.98\pm0.61$ & \\
+    DESI LRG2       & $0.71$ 	& $16.85\pm0.32$
+                                & $20.08\pm0.60 $& \\
+    DESI LRG+ELG    & $0.93$    & $21.71\pm0.28$
+                                & $17.88\pm0.35$ & \\
+    DESI ELG        & $1.32$    & $27.79\pm0.69$
+                                & $13.82\pm0.42$ & \\
+    DESI QSO		& $1.49$	& & & $26.07\pm0.67$ \\
+    DESI Ly$\alpha$--QSO
+                    & $2.33$ 	& $39.71\pm0.94$
+                                & $8.52\pm0.17$ & \\
+    \hline
+    \end{tabular}
+    \end{center}
+    \caption{BAO dataset. This table is referenced fromt \cite{luongoDarkEnergyReconstructions2024}, including 6dFGS data (\cite{Beutler_2011}), SDSS data (\cite{PhysRevD.103.083533}) and DESI2024 BAO data (\cite{desicollaboration2024desi2024vicosmological})}
+    \label{tab:baodata}
+\end{table}
+
+
+2. Chronometers Data (OHD): The Hubble parameter measurements, known as the chronometers data, provide independent estimates of the Hubble parameter \(H(z)\) at various redshifts. These data serve as an important probe of the expansion rate of the universe. We choose the dataset from \cite{Favale_2023}
 
 3. Type Ia Supernovae (SNIa) Data: Type Ia supernovae (SNIa) are considered standard candles because When the light curve reaches its maximum, the absolute luminosity is almost the same. The distance modulus $\mu$ can be obtained according to the following formula
 \begin{equation}
@@ -463,7 +536,7 @@ where $M_b$ denotes the absolute luminosity of SNIa and the luminosity distance 
 \begin{equation}
     d_L(z)=\frac{c}{H_0}(1+z)\int_0^z \frac{dz'}{E(z')}
 \end{equation}
-In this paper, we use Pantheon+ dataset who comprises 1701 SNIa samples, an increase from the 1048 samples in Pantheon dataset. These light curves, presenting 1701 light curves of 1550 spectroscopically confirmed SNIa within the redshift range of $0.001 < z < 2.26$, constitute the Pantheon+ dataset (\cite{Scolnic_2022,Brout_2022}).
+In this paper, we use Pantheon+ dataset who comprises 1701 SNIa samples, an increase from the 1048 samples in Pantheon dataset. Pantheon+ dataset consists of 1701 light curves of 1550 spectroscopically confirmed SNIa within the redshift range of $0.001 < z < 2.26$ (\cite{Scolnic_2022,Brout_2022}).
 
 The combined likelihood function \(\mathcal{L}\) is then constructed by multiplying the individual likelihoods of each dataset:
 \begin{equation}
@@ -474,22 +547,25 @@ it is implied that
     \chi^2_\text{tot}=\chi^2_{\text{BAO}}+\chi^2_{\text{OHD}} +\chi^2_{\text{SNIa}}
 \end{equation}
 In order to test the statistical significance of our constraints we implement the AIC criterion.
+To complete our statistical study, we also use the selection method named the Bayesian Information Criterion (BIC). To calculate the value of BIC for each model we use
 
 
 
 
-
-\section{Parameter constraint }
+\section{results of parameter constraint}
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{./pic/parameter contraint.png}
+    \caption{\label{fig:constraint} The 1$\sigma$ and 2$\sigma$ confidence contours and the 1D posterior distributions obtained from MCMC constraint of HDE in $f(Q,T)$ gravity using BAO+SNIa+OHD+DESI data}
+\end{figure}
+The results show that our results may alleviate the Hubble tension
 
 \section{Cosmic evolution}
 The deceleration facter is defined as
 \begin{equation}
     q(z)=-(1+z)H(z)\frac{d}{dz}\left(\frac{1}{H}\right)-1 
 \end{equation}
-Deceleration parameter
-\begin{equation}
-    q=-\frac{\ddot{a}a}{\dot{a}^2}=\frac{1}{2}(1+3w)=\frac{1}{2}\left(1+3\frac{p_{\text{eff}}}{\rho_{\text{eff}}}\right)=-1+\frac{3(4\dot{f}_QH-f+p)}{f-[(1+f_T)\rho+f_Tp]}
-\end{equation}
+
 \section{Conclusion}
 \appendix
 
