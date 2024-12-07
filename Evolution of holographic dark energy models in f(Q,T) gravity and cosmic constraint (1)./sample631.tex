@@ -28,7 +28,7 @@
 %% using aastex version 6.3
 \documentclass[preprint]{aastex631}
 \usepackage{amsmath}
-
+\usepackage{subfigure}
 %% The default is a single spaced, 10 point font, single spaced article.
 %% There are 5 other style options available via an optional argument. They
 %% can be invoked like this:
@@ -386,14 +386,26 @@ w_{\text{eff}}=\frac{p_{\text{eff}}}{\rho_{\text{eff}}} = \frac{-2\dot{H}-3H^2}{
 
 
 \section{Cosmic solutions with holographic dark energy}
-In order to understand the characteristic properties of the dark energy driving the recent acceleration of the Universe, we need to parameterize its EoS.
-We consider a simple form of $f$ 
+
+The holographic dark energy (HDE) model is an approach to understanding the nature of dark energy based on the holographic principle. This principle suggests that the information content of a physical system in a given region of space can be described by a lower-dimensional theory on the boundary of that region. In cosmology, it has been applied to describe the energy density of dark energy in terms of the holographic principle, with the idea that the dark energy density is related to the largest length scale of the universe, typically chosen to be the future event horizon or the particle horizon (\cite{LI20041}). In the HDE model, the energy density of dark energy is typically expressed as
+\begin{equation}
+    \rho_\text{de} = 3c^2 M_p^2 L^{-2}
+\end{equation}
+where $L$ is the characteristic length scale of the universe, and $c$ is free parameter, $M_p$ denotes planck mass here we set it as 1. In order to understand the characteristic properties of the dark energy driving the recent acceleration of the Universe, we need to parameterize its EoS
+\begin{equation}
+    w_\text{de}=\frac{p_\text{de}}{\rho_\text{de}}
+\end{equation}
+Consider a simple case, the HDE energy density in Hubble cut-off can be described as 
+\begin{equation}
+    \rho_{de}=3c^2 H(t)^2 \label{HDE}
+\end{equation}
+In order to incorporate holographic dark energy in the modified gravitational universe, we consider a simple form of $f$ 
 \begin{equation}
     f(Q,T)=m Q^n+\alpha T
 \end{equation}
-where $Q=6H^2$, $T=-\rho+3p$, so that we can derive $f_Q=\alpha n Q^{n-1}=\alpha n 6^{n-1}H^{2n-2}$, $f_T=\beta$, $\dot{f}_Q=2\alpha n(n-1)6^{n-1}H^{2n-3}\dot{H}$.
+where $Q=6H^2$, $T=-\rho+3p$, $m$, $n$ and $\alpha$ are constants. So that we can derive $f_Q=\alpha n Q^{n-1}=\alpha n 6^{n-1}H^{2n-2}$, $f_T=\beta$, $\dot{f}_Q=2\alpha n(n-1)6^{n-1}H^{2n-3}\dot{H}$.
 
-The deceleration factor, which describes the acceleration or deceleration of the late universe depending upon its value, is defined as
+We also introduce the deceleration factor, which describes the acceleration or deceleration of the late universe depending upon its value, is defined as
 \begin{equation}
     q=\frac{d}{dt}\frac{1}{H}-1=-\frac{\ddot{a}a}{\dot{a}^2}=-\frac{\dot{H}}{H^2}-1=(1+z)\frac{1}{H(z)}\frac{dH(z)}{dz}-1   
 \end{equation}
@@ -402,21 +414,20 @@ Use Eq.\eqref{F1} and \eqref{F2} we can solve the energy density of fluid compon
     \rho_\text{de}&= \frac{m (2 n-1) \left(6H(t)^2\right)^{n-1} \left((3 \alpha +2) n H'(t)+3 (\alpha +1) H(t)^2\right)}{\left(2 \alpha ^2+3 \alpha +1\right) w_\text{de}} \label{RD}\\
     \rho_m&= \frac{m (2 n-1) \left(6H(t)^2\right)^{n-1} \left(n (\alpha  (w_\text{de}-3)-2) H'(t)-3 (\alpha +1) (w_\text{de}+1) H(t)^2\right)}{\left(2 \alpha ^2+3 \alpha +1\right) w_\text{de}}\label{RM}
 \end{align}
-Taking the entire universe into account and regarding the vacuum energy as dark energy, Li suggested that the holographic dark energy density is given by saturating the above inequality up to a coefficient $c$ as free parameter (\cite{LI20041}). Consider a simple case, the HDE energy density in Hubble cut-off can be described as 
-\begin{equation}
-    \rho_{de}=3c^2 H(t)^2 \label{HDE}
-\end{equation}
 There is also a simple relation between $H(t)$ and $H(z)$
 \begin{equation}
     \dot{H}(t)=\frac{d}{dt}H(t)=-\frac{d H(z)}{dz}H(z)(1+z)\label{HR}
 \end{equation}
-Combine equation \eqref{RD},\eqref{RM} and \eqref{HR} and relation \eqref{HR}, we can get the equation follows
+Combine equation \eqref{RD} \eqref{RM} and \eqref{HR} and relation \eqref{HR}, we can get the equation follows
 \begin{equation}
     3 c^2 H(z)^2=\frac{m 6^{n-1} (2 n-1) \left(H(z)^2\right)^{n-1} \left(3 (\alpha +1) H(z)^2-(3 \alpha +2) n (z+1) H(z) H'(z)\right)}{\left(2 \alpha ^2+3 \alpha +1\right) {w_\text{de}}}
 \end{equation}
 We first assume that $\alpha=0$, So that we don't need to consider the dynamic tensor coupling terms $f=mQ^n$. To get an analytic form, we also assume that $n=1$, so we can get
 \begin{equation}
-    H(z)\to H_0 m^{\frac{3}{2} \left(\frac{c^2 w_\text{de}}{m}-1\right)} (m (z+1))^{\frac{3}{2}-\frac{3 c^2 w_\text{de}}{2 m}}
+    H(z) = H_0  (1+z)^{\frac{3}{2}-\frac{3 c^2 w_\text{de}}{2 m}}
+\end{equation}
+\begin{equation}
+    H(z)= H_0(z+1)^{3/2}-c^2 w_\text{de}((1+z)^{3/2}-1)\frac{1}{m}
 \end{equation}
 In principle, we can get the form of $H(z)$ through the solution of above differential equation. However, solving higher-order differential equations analytically is difficult. So we consider $n=1$ firstly to simplify calculation and set the initial condition $H(z=0)=H_0$ which denotes value of the Hubble parameter at present, get analytically solution as follow
 \begin{equation}
@@ -428,7 +439,7 @@ We thus obtain the power-law evolution of the Universe which avoids the big-bang
 \end{equation}
 Here we have a constant deceleration factor depending on the parameter. When we select a particular parameter value, it will show acceleration or deceleration characteristics. If $q<0$, it will show the characteristics of accelerated expansion.
 
-However, since there is no evolution, there is no phase transition in such a universe. To solve this problem, we consider a generalized holographic entropy that arises from quantum-gravitational effects which deform the black-hole surface by giving it an intricate, fractal form (\cite{PhysRevD.102.123525}). In this case, the HDE energy density is define as
+However, since no evolution, there is no phase transition in such a universe. To solve this problem, we consider a generalized holographic entropy that arises from quantum-gravitational effects which deform the black-hole surface by giving it an intricate, fractal form (\cite{PhysRevD.102.123525}). In this case, the HDE energy density is define as
 \begin{equation}
     \rho_{de}=3c^2 H(t)^{2-\Delta}
 \end{equation}
@@ -553,9 +564,38 @@ To complete our statistical study, we also use the selection method named the Ba
 
 
 \section{results of parameter constraint}
+
+\begin{figure}[h]
+    \centering
+    \subfigure[name1]{
+    \label{Fig.sub.1}
+    \includegraphics[width=0.45\textwidth]{./pic/H-z_relation.eps}}
+    \subfigure[name2]{
+    \label{Fig.sub.2}
+    \includegraphics[width=0.45\textwidth]{./pic/mu-z_relation.eps}}
+    \caption{Main name}
+    \label{Fig.main}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \subfigure[name1]{
+    \label{Fig2.sub.1}
+    \includegraphics[width=0.3\textwidth]{./pic/DH-z_relation.eps}}
+    \subfigure[name2]{
+    \label{Fig2.sub.2}
+    \includegraphics[width=0.3\textwidth]{./pic/DM-z_relation.eps}}
+    \subfigure[name3]{
+    \label{Fig2.sub.2}
+    \includegraphics[width=0.3\textwidth]{./pic/DV-z_relation.eps}}
+    \caption{Main name}
+    \label{Fig2.main}
+\end{figure}
+
+
 \begin{figure}
     \centering
-    \includegraphics[width=1\linewidth]{./pic/parameter contraint.png}
+    \includegraphics[width=1\linewidth]{./pic/getdist.eps}
     \caption{\label{fig:constraint} The 1$\sigma$ and 2$\sigma$ confidence contours and the 1D posterior distributions obtained from MCMC constraint of HDE in $f(Q,T)$ gravity using BAO+SNIa+OHD+DESI data}
 \end{figure}
 The results show that our results may alleviate the Hubble tension
