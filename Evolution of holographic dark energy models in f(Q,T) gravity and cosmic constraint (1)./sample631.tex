@@ -387,18 +387,20 @@ w_{\text{eff}}=\frac{p_{\text{eff}}}{\rho_{\text{eff}}} = \frac{-2\dot{H}-3H^2}{
 
 \section{Cosmic solutions with holographic dark energy}
 
-The holographic dark energy (HDE) model is an approach to understanding the nature of dark energy based on the holographic principle. This principle suggests that the information content of a physical system in a given region of space can be described by a lower-dimensional theory on the boundary of that region. In cosmology, it has been applied to describe the energy density of dark energy in terms of the holographic principle, with the idea that the dark energy density is related to the largest length scale of the universe, typically chosen to be the future event horizon or the particle horizon (\cite{LI20041}). In the HDE model, the energy density of dark energy is typically expressed as
+The holographic principle sets an upper limit on the entropy of the universe.  In the HDE model, the energy density of dark energy is typically expressed as (\cite{LI20041})
 \begin{equation}
     \rho_\text{de} = 3c^2 M_p^2 L^{-2}
 \end{equation}
-where $L$ is the characteristic length scale of the universe, and $c$ is free parameter, $M_p$ denotes planck mass here we set it as 1. In order to understand the characteristic properties of the dark energy driving the recent acceleration of the Universe, we need to parameterize its EoS
-\begin{equation}
-    w_\text{de}=\frac{p_\text{de}}{\rho_\text{de}}
-\end{equation}
-Consider a simple case, the HDE energy density in Hubble cut-off can be described as 
+where $L$ is the characteristic length scale of the universe, and $c$ is free parameter, $M_p$ denotes planck mass here we set it as 1. The Hubble horizon is considered the simplest option.  In addition, the particle horizon $L_p$ or the future event horizon $L_F$ are also considered reasonable options. Consider a simple case, the HDE energy density in Hubble cut-off can be described as 
 \begin{equation}
     \rho_{de}=3c^2 H(t)^2 \label{HDE}
 \end{equation}
+Another HDE model called barrow holographic dark energy (BHDE) generalizes holographic entropy that arises from quantum-gravitational effects which deform the black-hole surface by giving it an intricate, fractal form . In this case, the HDE energy density can be define as
+\begin{equation}
+    \rho_{de}=3c^2 H(t)^{2-\Delta}\label{BHDEdef}
+\end{equation}
+here a new exponent $\Delta$ quantifies the quantum-gravitational deformation, with $\Delta=0$ coming back to the standard Bekenstein-Hawking entropy, and with $\Delta=1$ corresponding to the most intricate and fractal structure (\cite{PhysRevD.102.123525}).
+
 In order to incorporate holographic dark energy in the modified gravitational universe, we consider a simple form of $f$ 
 \begin{equation}
     f(Q,T)=m Q^n+\alpha T
@@ -409,12 +411,16 @@ We also introduce the deceleration factor, which describes the acceleration or d
 \begin{equation}
     q=\frac{d}{dt}\frac{1}{H}-1=-\frac{\ddot{a}a}{\dot{a}^2}=-\frac{\dot{H}}{H^2}-1=(1+z)\frac{1}{H(z)}\frac{dH(z)}{dz}-1   
 \end{equation}
+In order to understand the characteristic properties of the dark energy and more easier to get a analytical solution, we need to parameterize EoS of HDE as a constant parameter
+\begin{equation}
+    w_\text{de}=\frac{p_\text{de}}{\rho_\text{de}}
+\end{equation}
 Use Eq.\eqref{F1} and \eqref{F2} we can solve the energy density of fluid component in field equation
 \begin{align}
     \rho_\text{de}&= \frac{m (2 n-1) \left(6H(t)^2\right)^{n-1} \left((3 \alpha +2) n H'(t)+3 (\alpha +1) H(t)^2\right)}{\left(2 \alpha ^2+3 \alpha +1\right) w_\text{de}} \label{RD}\\
     \rho_m&= \frac{m (2 n-1) \left(6H(t)^2\right)^{n-1} \left(n (\alpha  (w_\text{de}-3)-2) H'(t)-3 (\alpha +1) (w_\text{de}+1) H(t)^2\right)}{\left(2 \alpha ^2+3 \alpha +1\right) w_\text{de}}\label{RM}
 \end{align}
-There is also a simple relation between $H(t)$ and $H(z)$
+This is a second order differential equation and it depends on t. In order to get cosmological solution, there is also a simple relation between $H(t)$ and $H(z)$
 \begin{equation}
     \dot{H}(t)=\frac{d}{dt}H(t)=-\frac{d H(z)}{dz}H(z)(1+z)\label{HR}
 \end{equation}
@@ -422,13 +428,14 @@ Combine equation \eqref{RD} \eqref{RM} and \eqref{HR} and relation \eqref{HR}, w
 \begin{equation}
     3 c^2 H(z)^2=\frac{m 6^{n-1} (2 n-1) \left(H(z)^2\right)^{n-1} \left(3 (\alpha +1) H(z)^2-(3 \alpha +2) n (z+1) H(z) H'(z)\right)}{\left(2 \alpha ^2+3 \alpha +1\right) {w_\text{de}}}
 \end{equation}
-We first assume that $\alpha=0$, So that we don't need to consider the dynamic tensor coupling terms $f=mQ^n$. To get an analytic form, we also assume that $n=1$, so we can get
-\begin{equation}
-    H(z) = H_0  (1+z)^{\frac{3}{2}-\frac{3 c^2 w_\text{de}}{2 m}}
-\end{equation}
-\begin{equation}
-    H(z)= H_0(z+1)^{3/2}-c^2 w_\text{de}((1+z)^{3/2}-1)\frac{1}{m}
-\end{equation}
+% We first not consider non-minimum coupling between geometry and matter assuming that $\alpha=0$, so that we don't need to talk the dynamic tensor coupling terms $T$. To get an analytic form, we also assume that $n=1$, so we can get
+% \begin{equation}
+%     H(z) = H_0  (1+z)^{\frac{3}{2}-\frac{3 c^2 w_\text{de}}{2 m}}
+% \end{equation}
+
+% \begin{equation}
+%     H(z)= H_0(z+1)^{3/2}-c^2 w_\text{de}((1+z)^{3/2}-1)\frac{1}{m}
+% \end{equation}
 In principle, we can get the form of $H(z)$ through the solution of above differential equation. However, solving higher-order differential equations analytically is difficult. So we consider $n=1$ firstly to simplify calculation and set the initial condition $H(z=0)=H_0$ which denotes value of the Hubble parameter at present, get analytically solution as follow
 \begin{equation}
     H(z)= H_0 (1+z)^{\frac{3 (1+\alpha) \left(m-c^2 w_\text{de}(1+2\alpha)\right)}{m(2+3\alpha)}}
@@ -437,13 +444,7 @@ We thus obtain the power-law evolution of the Universe which avoids the big-bang
 \begin{equation}
     q = -1+\frac{3 (\alpha +1) \left(m-(2 \alpha +1) c^2 w_\text{de}\right)}{(3 \alpha +2) m}
 \end{equation}
-Here we have a constant deceleration factor depending on the parameter. When we select a particular parameter value, it will show acceleration or deceleration characteristics. If $q<0$, it will show the characteristics of accelerated expansion.
-
-However, since no evolution, there is no phase transition in such a universe. To solve this problem, we consider a generalized holographic entropy that arises from quantum-gravitational effects which deform the black-hole surface by giving it an intricate, fractal form (\cite{PhysRevD.102.123525}). In this case, the HDE energy density is define as
-\begin{equation}
-    \rho_{de}=3c^2 H(t)^{2-\Delta}
-\end{equation}
-If we set $\Delta=1$ the 
+Here we have a constant deceleration factor depending on the parameter. When we select a particular parameter value, it will show acceleration or deceleration characteristics. If $q<0$, it will show the characteristics of accelerated expansion. However, since the deceleration factor is time independent, there is no phase transition in such a universe. So we can use Eq. \eqref{BHDEdef} to obtain a tighter UV limit, if we set $\Delta=1$ we can get 
 \begin{equation}
     H(z)= H_0 (1+z)^{\frac{3 (\alpha +1)}{3\alpha +2}}-(1+2 \alpha) c^2 w_{de} \left((1+z)^{\frac{3 (\alpha +1)}{3\alpha +2}}-1\right)\frac{1}{m}
 \end{equation}
@@ -451,14 +452,12 @@ In this case, the deceleration factor is
 \begin{equation}
     q=\frac{(2 \alpha +1) c^2 w_\text{de} \left(3 \alpha +(z+1)^{\frac{3 (\alpha +1)}{3 \alpha +2}}+2\right)-H_0 m (z+1)^{\frac{3 (\alpha +1)}{3 \alpha +2}}}{(3 \alpha +2) \left((2 \alpha +1) c^2 w_\text{de} \left((z+1)^{\frac{3 (\alpha +1)}{3 \alpha +2}}-1\right)-H_0 m (z+1)^{\frac{3 (\alpha +1)}{3 \alpha +2}}\right)}
 \end{equation}
-in other situation, if $n \neq 1$ or $\Delta \neq 1$, higher-order differential equations are difficult to solve analytically, so we can only obtain numerical solutions, relative discussion can be found in section().
+in other situation, if $n \neq 1$ or $\Delta \neq 1$, higher-order differential equations are difficult to solve analytically, so we can only obtain numerical solutions through complex machine computing.
 
-
-stability parameter of in this situation can be described as
-\begin{equation}
-    c_s^2=\frac{\text{d} p_{de}}{\text{d} \rho_{de}}=
-\end{equation}
-
+% Stability parameter of in this situation can be described as
+% \begin{equation}
+%     c_s^2=\frac{\text{d} p_{de}}{\text{d} \rho_{de}}=
+% \end{equation}
 
 \section{Observational data and methodology}
 
