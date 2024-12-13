@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.11.10)  12 DEC 2024 01:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.11.10)  12 DEC 2024 16:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -553,53 +553,53 @@ Package hyperref Info: Link coloring ON on input line 170.
 Class revtex4-1 Info: Overriding lineo.sty, restoring output routine, on input line 170.
 Class revtex4-1 Info: Line numbering not turned on yet on input line 170.
 Class revtex4-1 Info: Overriding \@LN@LLerror on input line 170.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 253.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 247.
  (/usr/share/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 253.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 247.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 253.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 247.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 <Orcid-ID.png, id=33, 220.825pt x 220.825pt>
 File: Orcid-ID.png Graphic file (type png)
 <use Orcid-ID.png>
-Package pdftex.def Info: Orcid-ID.png  used on input line 280.
+Package pdftex.def Info: Orcid-ID.png  used on input line 273.
 (pdftex.def)             Requested size: 9.0pt x 8.99997pt.
 File: Orcid-ID.png Graphic file (type png)
 <use Orcid-ID.png>
-Package pdftex.def Info: Orcid-ID.png  used on input line 280.
+Package pdftex.def Info: Orcid-ID.png  used on input line 273.
 (pdftex.def)             Requested size: 9.0pt x 8.99997pt.
 File: Orcid-ID.png Graphic file (type png)
 <use Orcid-ID.png>
-Package pdftex.def Info: Orcid-ID.png  used on input line 280.
+Package pdftex.def Info: Orcid-ID.png  used on input line 273.
 (pdftex.def)             Requested size: 9.0pt x 8.99997pt.
 File: Orcid-ID.png Graphic file (type png)
 <use Orcid-ID.png>
-Package pdftex.def Info: Orcid-ID.png  used on input line 280.
+Package pdftex.def Info: Orcid-ID.png  used on input line 273.
 (pdftex.def)             Requested size: 9.0pt x 8.99997pt.
 File: Orcid-ID.png Graphic file (type png)
 <use Orcid-ID.png>
-Package pdftex.def Info: Orcid-ID.png  used on input line 280.
+Package pdftex.def Info: Orcid-ID.png  used on input line 273.
 (pdftex.def)             Requested size: 9.0pt x 8.99997pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./orcid-ID.png>] [2]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 297.
+(hyperref)                removing `math shift' on input line 290.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 297.
+(hyperref)                removing `math shift' on input line 290.
 
 [3] [4] [5] [6] [7] [8]
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 577.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 570.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 577.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 570.
 Package epstopdf Info: Source file: <./pic/H-z_relation.eps>
 (epstopdf)                    date: 2024-12-11 19:06:23
 (epstopdf)                    size: 29239 bytes
@@ -607,12 +607,12 @@ Package epstopdf Info: Source file: <./pic/H-z_relation.eps>
 (epstopdf)                    date: 2024-12-11 19:08:08
 (epstopdf)                    size: 17322 bytes
 (epstopdf)             Command: <repstopdf --outfile=./pic/H-z_relation-eps-converted-to.pdf ./pic/H-z_relation.eps>
-(epstopdf)             \includegraphics on input line 601.
+(epstopdf)             \includegraphics on input line 594.
 Package epstopdf Info: Output file is already uptodate.
-<./pic/H-z_relation-eps-converted-to.pdf, id=335, 462.72874pt x 347.2975pt>
+<./pic/H-z_relation-eps-converted-to.pdf, id=330, 462.72874pt x 347.2975pt>
 File: ./pic/H-z_relation-eps-converted-to.pdf Graphic file (type pdf)
 <use ./pic/H-z_relation-eps-converted-to.pdf>
-Package pdftex.def Info: ./pic/H-z_relation-eps-converted-to.pdf  used on input line 601.
+Package pdftex.def Info: ./pic/H-z_relation-eps-converted-to.pdf  used on input line 594.
 (pdftex.def)             Requested size: 230.90128pt x 173.30386pt.
 Package epstopdf Info: Source file: <./pic/mu-z_relation.eps>
 (epstopdf)                    date: 2024-12-11 19:06:25
@@ -621,12 +621,12 @@ Package epstopdf Info: Source file: <./pic/mu-z_relation.eps>
 (epstopdf)                    date: 2024-12-11 19:08:09
 (epstopdf)                    size: 238774 bytes
 (epstopdf)             Command: <repstopdf --outfile=./pic/mu-z_relation-eps-converted-to.pdf ./pic/mu-z_relation.eps>
-(epstopdf)             \includegraphics on input line 604.
+(epstopdf)             \includegraphics on input line 597.
 Package epstopdf Info: Output file is already uptodate.
-<./pic/mu-z_relation-eps-converted-to.pdf, id=336, 462.72874pt x 347.2975pt>
+<./pic/mu-z_relation-eps-converted-to.pdf, id=331, 462.72874pt x 347.2975pt>
 File: ./pic/mu-z_relation-eps-converted-to.pdf Graphic file (type pdf)
 <use ./pic/mu-z_relation-eps-converted-to.pdf>
-Package pdftex.def Info: ./pic/mu-z_relation-eps-converted-to.pdf  used on input line 604.
+Package pdftex.def Info: ./pic/mu-z_relation-eps-converted-to.pdf  used on input line 597.
 (pdftex.def)             Requested size: 230.90128pt x 173.30386pt.
 
 
@@ -639,12 +639,12 @@ Package epstopdf Info: Source file: <./pic/DH-z_relation.eps>
 (epstopdf)                    date: 2024-12-11 19:08:09
 (epstopdf)                    size: 19358 bytes
 (epstopdf)             Command: <repstopdf --outfile=./pic/DH-z_relation-eps-converted-to.pdf ./pic/DH-z_relation.eps>
-(epstopdf)             \includegraphics on input line 613.
+(epstopdf)             \includegraphics on input line 606.
 Package epstopdf Info: Output file is already uptodate.
-<./pic/DH-z_relation-eps-converted-to.pdf, id=337, 462.72874pt x 347.2975pt>
+<./pic/DH-z_relation-eps-converted-to.pdf, id=332, 462.72874pt x 347.2975pt>
 File: ./pic/DH-z_relation-eps-converted-to.pdf Graphic file (type pdf)
 <use ./pic/DH-z_relation-eps-converted-to.pdf>
-Package pdftex.def Info: ./pic/DH-z_relation-eps-converted-to.pdf  used on input line 613.
+Package pdftex.def Info: ./pic/DH-z_relation-eps-converted-to.pdf  used on input line 606.
 (pdftex.def)             Requested size: 153.93678pt x 115.5359pt.
 Package epstopdf Info: Source file: <./pic/DM-z_relation.eps>
 (epstopdf)                    date: 2024-12-11 19:06:23
@@ -653,12 +653,12 @@ Package epstopdf Info: Source file: <./pic/DM-z_relation.eps>
 (epstopdf)                    date: 2024-12-11 19:08:09
 (epstopdf)                    size: 17587 bytes
 (epstopdf)             Command: <repstopdf --outfile=./pic/DM-z_relation-eps-converted-to.pdf ./pic/DM-z_relation.eps>
-(epstopdf)             \includegraphics on input line 616.
+(epstopdf)             \includegraphics on input line 609.
 Package epstopdf Info: Output file is already uptodate.
-<./pic/DM-z_relation-eps-converted-to.pdf, id=338, 462.72874pt x 347.2975pt>
+<./pic/DM-z_relation-eps-converted-to.pdf, id=333, 462.72874pt x 347.2975pt>
 File: ./pic/DM-z_relation-eps-converted-to.pdf Graphic file (type pdf)
 <use ./pic/DM-z_relation-eps-converted-to.pdf>
-Package pdftex.def Info: ./pic/DM-z_relation-eps-converted-to.pdf  used on input line 616.
+Package pdftex.def Info: ./pic/DM-z_relation-eps-converted-to.pdf  used on input line 609.
 (pdftex.def)             Requested size: 153.93678pt x 115.5359pt.
 Package epstopdf Info: Source file: <./pic/DV-z_relation.eps>
 (epstopdf)                    date: 2024-12-11 19:06:23
@@ -667,12 +667,12 @@ Package epstopdf Info: Source file: <./pic/DV-z_relation.eps>
 (epstopdf)                    date: 2024-12-11 19:08:09
 (epstopdf)                    size: 18171 bytes
 (epstopdf)             Command: <repstopdf --outfile=./pic/DV-z_relation-eps-converted-to.pdf ./pic/DV-z_relation.eps>
-(epstopdf)             \includegraphics on input line 619.
+(epstopdf)             \includegraphics on input line 612.
 Package epstopdf Info: Output file is already uptodate.
-<./pic/DV-z_relation-eps-converted-to.pdf, id=339, 462.72874pt x 347.2975pt>
+<./pic/DV-z_relation-eps-converted-to.pdf, id=334, 462.72874pt x 347.2975pt>
 File: ./pic/DV-z_relation-eps-converted-to.pdf Graphic file (type pdf)
 <use ./pic/DV-z_relation-eps-converted-to.pdf>
-Package pdftex.def Info: ./pic/DV-z_relation-eps-converted-to.pdf  used on input line 619.
+Package pdftex.def Info: ./pic/DV-z_relation-eps-converted-to.pdf  used on input line 612.
 (pdftex.def)             Requested size: 153.93678pt x 115.5359pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -684,12 +684,12 @@ Package epstopdf Info: Source file: <./pic/getdist.eps>
 (epstopdf)                    date: 2024-12-11 19:08:10
 (epstopdf)                    size: 226176 bytes
 (epstopdf)             Command: <repstopdf --outfile=./pic/getdist-eps-converted-to.pdf ./pic/getdist.eps>
-(epstopdf)             \includegraphics on input line 627.
+(epstopdf)             \includegraphics on input line 620.
 Package epstopdf Info: Output file is already uptodate.
-<./pic/getdist-eps-converted-to.pdf, id=340, 1011.78pt x 1011.78pt>
+<./pic/getdist-eps-converted-to.pdf, id=335, 1011.78pt x 1011.78pt>
 File: ./pic/getdist-eps-converted-to.pdf Graphic file (type pdf)
 <use ./pic/getdist-eps-converted-to.pdf>
-Package pdftex.def Info: ./pic/getdist-eps-converted-to.pdf  used on input line 627.
+Package pdftex.def Info: ./pic/getdist-eps-converted-to.pdf  used on input line 620.
 (pdftex.def)             Requested size: 513.11743pt x 513.12941pt.
 [9] [10 <./pic/H-z_relation-eps-converted-to.pdf> <./pic/mu-z_relation-eps-converted-to.pdf> <./pic/DH-z_relation-eps-converted-to.pdf> <./pic/DM-z_relation-eps-converted-to.pdf> <./pic/DV-z_relation-eps-converted-to.pdf>] [11 <./pic/getdist-eps-converted-to.pdf>] (./sample631.bbl [12]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 142.
@@ -698,7 +698,7 @@ File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 142.
-) [13] (./sample631.aux)
+ [13]) [14] (./sample631.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -707,18 +707,18 @@ Package rerunfilecheck Info: File `sample631.out' has not changed.
 (rerunfilecheck)             Checksum: C1D95B2E88331979DF237D649DEA261D;1157.
  ) 
 Here is how much of TeX's memory you used:
- 13988 strings out of 476065
- 207271 string characters out of 5793263
- 1970187 words of memory out of 5000000
- 35785 multiletter control sequences out of 15000+600000
+ 13990 strings out of 476065
+ 207289 string characters out of 5793263
+ 1959187 words of memory out of 5000000
+ 35786 multiletter control sequences out of 15000+600000
  572693 words of font info for 94 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 90i,12n,93p,2214b,658s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,93p,2214b,706s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on sample631.pdf (13 pages, 855505 bytes).
+Output written on sample631.pdf (14 pages, 859585 bytes).
 PDF statistics:
- 800 PDF objects out of 1000 (max. 8388607)
- 509 compressed objects within 6 object streams
- 129 named destinations out of 1000 (max. 500000)
+ 804 PDF objects out of 1000 (max. 8388607)
+ 512 compressed objects within 6 object streams
+ 130 named destinations out of 1000 (max. 500000)
  92 words of extra memory for PDF output out of 10000 (max. 10000000)
 
