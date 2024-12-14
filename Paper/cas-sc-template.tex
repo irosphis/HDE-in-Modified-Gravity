@@ -169,7 +169,7 @@
 
 % Here goes the abstract
 \begin{abstract}
-In this work, we investigate a modified gravity model \( f(Q,T) \) with holographic dark energy. By considering the holographic principle as an extension to cosmology, we explore dark energy as a result of the entanglement entropy of the universe's horizon. We employ the Barrow holographic dark energy model, incorporating quantum corrections, and use the Hubble horizon for the infrared cutoff. Through parameter estimation using MCMC with the latest supernova, BAO, and Hubble data, we find that the model alleviates the Hubble tension and provides consistent results with the standard cosmological model. Additionally, the model successfully describes the accelerated expansion of the universe. Despite the complexity and additional parameters introduced by the model, it offers a promising framework for further exploration of dark energy within modified gravity theories.
+In this work, we investigate a modified gravity model $ f(Q,T) $ with holographic dark energy. By considering the holographic principle as an extension to cosmology, we explore dark energy as a result of the entanglement entropy of the universe's horizon. We employ the Barrow holographic dark energy model, incorporating quantum corrections, and use the Hubble horizon for the infrared cutoff. Through parameter estimation using MCMC with the latest supernova, BAO, and Hubble data, we find that the model alleviates the Hubble tension and provides consistent results with the standard cosmological model. Additionally, the model successfully describes the accelerated expansion of the universe. Despite the complexity and additional parameters introduced by the model, it offers a promising framework for further exploration of dark energy within modified gravity theories.
 \end{abstract}
 
 % Use if graphical abstract is present
@@ -188,19 +188,20 @@ In this work, we investigate a modified gravity model \( f(Q,T) \) with holograp
 % Keywords
 % Each keyword is seperated by \sep
 \begin{keywords}
-Cosmology \sep Dark energy
+Cosmology \sep Dark energy \sep $f(Q,T)$ gravity\sep Observational estimation
 \end{keywords}
 
 \maketitle
 
 % Main text
 \section{Introduction} \label{sec:intro}
-Over the past decaeds, a series of discoveries in cosmology have profoundly changed our understanding of the universe. In 1998, the accelerated expansion of the universe was discovered through the study of Type Ia supernovae\cite{perlmutter_discovery_1998,Riess_1998}. This fact had been later confirmed by many other cosmological observations, such as the measurement of temperature anisotropy and polarization in the cosmic microwave background (CMB) radiation \cite{1992ApJ...396L...1S,2020Planck}; Baryon acoustic oscillations (Baryon Acoustic Oscillations, BAO) peak length scale\cite{Eisenstein_2005,10.1111/j.1365-2966.2011.19592.x}; the study of the large-scale structure (LSS) of the universe \cite{Dodelson_2002,Percival_2007} and use Cosmic Chronometers to direct measurement of Hubble parameter \cite{Daniel_Stern_2010,Moresco_2015}. These observations suggest the existence of a mysterious energy in our universe, also named dark energy (DE)  who has high negative pressure and increasing density. Dark energy behaves as anti-gravity, but its nature remains unknown.
 
-Theoretical predictions and astronomical observations indicate that there may be a mysterious form of energy in the universe. This energy has the characteristics of negative pressure, and its density increases over time. This is considered to be the key factor driving the accelerated expansion of the universe, accounting for about three-quarters of the total energy of the universe \cite{PhysRevD.37.3406,PhysRevD.63.103510,10.1143/PTP.106.929}. In order to achieve such accelerated expansion, this form of energy needs to produce an anti-gravitational effect throughout the observable universe. However, ordinary baryonic matter neither has this equation of state nor can it explain such a large proportion of the cosmic energy component. Therefore, scientists have proposed and studied a variety of alternative theories and models to explore the nature of this cosmic acceleration phenomenon.
+Over the past few decades, a series of major discoveries in cosmology have profoundly reshaped our understanding of the universe. In 1998, the accelerated expansion of the universe was first observed through studies of Type Ia supernovae \cite{perlmutter_discovery_1998, Riess_1998}. This groundbreaking discovery was later confirmed by various other cosmological observations, including measurements of temperature anisotropies and polarization in the cosmic microwave background (CMB) radiation \cite{1992ApJ...396L...1S, 2020Planck}, the peak length scale of baryon acoustic oscillations (BAO) \cite{Eisenstein_2005, 10.1111/j.1365-2966.2011.19592.x}, the study of the large-scale structure (LSS) of the universe \cite{Dodelson_2002, Percival_2007}, and direct measurements of the Hubble parameter using cosmic chronometers \cite{Daniel_Stern_2010, Moresco_2015}. These observations point to the existence of a mysterious form of energy, referred to as dark energy (DE), which is characterized by negative pressure and an increasing density. Dark energy is believed to be responsible for driving the accelerated expansion of the universe, acting like anti-gravity, although its precise nature remains unknown.
+
+This mysterious energy is thought to account for approximately 70\% of the total energy content of the universe \cite{PhysRevD.37.3406, PhysRevD.63.103510, 10.1143/PTP.106.929}. For such accelerated expansion to occur, dark energy must produce a repulsive gravitational effect that permeates the entire observable universe. Ordinary baryonic matter, however, does not exhibit the properties required to explain this phenomenon, nor can it account for such a significant portion of the universe's energy budget. As a result, researchers have proposed and studied a variety of alternative theories and models to explore the nature of dark energy and the cosmic acceleration it causes \cite{10.1093/oso/9780198526827.001.0001}.
 
 The simplest and most widely accepted theory is $\Lambda \text{CDM}$ model, where $\Lambda$ means cosmological constant predicted by Einstein \cite{Carroll_2001}.
-Based on $\Lambda \text{CDM}$ model, the lastest observations suggest that our universe consists of 68.3\% dark energy, 26.8\% cold dark matter and 4.9\% ordinary matter \cite{2020Planck}. However, this model is not free from problems and the problems it is facing are cosmic coincidence, fine-tuning and the Hubble tension—a discrepancy between the value of the Hubble constant $H_0$ inferred from the CMB by the Planck satellite and that obtained from local measurements using Type Ia supernovae—has sparked significant debate. 
+Based on $\Lambda \text{CDM}$ model, the lastest observations suggest that our universe consists of 68.3\% dark energy, 26.8\% cold dark matter and 4.9\% ordinary matter \cite{2020Planck}. However, this model is not free from problems and the problems it is facing are cosmic coincidence, fine-tuning and the Hubble tension, a discrepancy between the value of the Hubble constant $H_0$ inferred from the CMB by the Planck satellite and that obtained from local measurements using Type Ia supernovae—has sparked significant debate. 
 
 Another interesting attempt is to deviate from general ralativity toward a modified form (detailed research progress can be reviewid in \cite{Clifton_2012}). These theories assume that general relativity not work in large scale requiring a modification in action rather than standard Einstein-Hilbert action. The most well-known is $F(R)$ gravity which replaces the Ricci scalar $R$ in the action by a general function $f(R)$ \cite{1970MNRAS.150....1B}. The $f(G)$ gravity theory is also a modified theory of gravity that introduces a correction to the Gauss–Bonnet (GB) term $G$, allowing it to be arbitrary function $f(G)$ rather than remaining a constant \cite{NOJIRI20051,NOJIRI_2007}. Another modified theory of gravity $f(T)$ extends the teleparallel equivalent of General Relativity (TEGR). It replaces the curvature scalar $R$ in action with the torsion scalar $T$, derived from the Weitzenböck connection. Also shows some interpretations for the accelerating phases of our Universe \cite{Cai_2016,Bengochea_2009}. $f(Q)$ is generalized symmetric teleparallel gravity, with curvature and torsion both being zero, which is inspired by Weyl and Einstein's trial to unify electromagenetic and gravity. The geometric properties of gravity are described by "non-metricity". That is, the covariant derivative of the metric tensor is no longer zero (some detailed information can be found in review \cite{HEISENBERG20241}). Harko et al. have proposed a new theory known as $f (R, T )$ gravity, where $R$ stands for the Ricci scalar and $T$ denotes the trace of energy-momentum tensor which presents a non-minimum coupling between geometry and matter \cite{PhysRevD.84.024020}. Similar theories are introduced,$f(R,G)$ gravity proposed by Bamba et al. \cite{Bamba2009FinitetimeFS}; $f(Q,T)$ proposed by Xu et al.(\cite{Xu_2019}); $f(Q,C)$ gravity(\cite{De_2024}); $f(\mathcal{T},T)$ proposed by \cite{Harko_2014}; $f(T,B)$ gravity \cite{Bahamonde_2015,Bahamonde_2017}; $f(R,T^2)$ proposed by Katirci et al. \cite{Kat_rc__2014}, etc.
 
@@ -292,7 +293,7 @@ Effective EoS parameter denote geometry qualities.
 \rho_{\text{eff}}&=3H^2=\frac{f}{4f_Q}-\frac{1}{2f_Q}[(1+f_T)\rho+f_T p] \label{F1}\\
 -p_{\text{eff}}&=2\dot{H}+3H^2=\frac{f}{4f_Q}-\frac{2\dot{f}_Q H}{f_Q}+\frac{1}{2f_Q}[(1+f_T)\rho +(2+f_T)p] \label{F2}
 \end{align}
-The effective energy density \(\rho_{\text{eff}}\) and pressure \(p_{\text{eff}}\) described above highlight the coupling between geometry and matter within the \(f(Q, T)\) gravity framework. The presence of \(f_T\) explicitly links the geometric modifications to the energy density \(\rho\) and pressure \(p\) of the matter content. Additionally, the term involving \(\dot{f}_Q\) introduces time dependence in the coupling, suggesting a dynamical interplay between the evolution of spacetime geometry and matter distribution. 
+The effective energy density $\rho_{\text{eff}}$ and pressure $p_{\text{eff}}$ described above highlight the coupling between geometry and matter within the $f(Q, T)$ gravity framework. The presence of $f_T$ explicitly links the geometric modifications to the energy density $\rho$ and pressure $p$ of the matter content. Additionally, the term involving $\dot{f}_Q$ introduces time dependence in the coupling, suggesting a dynamical interplay between the evolution of spacetime geometry and matter distribution. 
 
 Furthermore, the effective EoS using Eq.\eqref{F1}\eqref{F2} can be written as
 \begin{equation}
@@ -366,6 +367,10 @@ In this case, the deceleration factor is
 \begin{equation}
     q=\frac{(2 \alpha +1) c^2 w_\text{de} \left(3 \alpha +(z+1)^{\frac{3 (\alpha +1)}{3 \alpha +2}}+2\right)-H_0 m (z+1)^{\frac{3 (\alpha +1)}{3 \alpha +2}}}{(3 \alpha +2) \left((2 \alpha +1) c^2 w_\text{de} \left((z+1)^{\frac{3 (\alpha +1)}{3 \alpha +2}}-1\right)-H_0 m (z+1)^{\frac{3 (\alpha +1)}{3 \alpha +2}}\right)}
 \end{equation}
+% When $\Delta=0.5$,
+% \begin{equation}
+%     H(z)= \left(2 \alpha  c^2 w_\text{de}+c^2 w_\text{de}+(1+z)^{\frac{3 (\alpha +1)}{6 \alpha +4}}\sqrt{2 \sqrt{(2 \alpha +1)^2 c^4 H_0} m^2 \text{wde}^2+c^4 (2 \alpha  w_\text{de}+w_\text{de})^2+H_0 m^2}\right)^2 \frac{1}{m^2}
+% \end{equation}
 in other situation, if $n \neq 1$ or $\Delta \neq 1$, higher-order differential equations are difficult to solve analytically, so we can only obtain numerical solutions through complex machine computing. For comparison, we also consider the case where $\alpha=1$ that reduces it to the minimum matter coupling.
 
 % Stability parameter of in this situation can be described as
@@ -375,11 +380,12 @@ in other situation, if $n \neq 1$ or $\Delta \neq 1$, higher-order differential 
 
 \section{Observational data and methodology}\label{sec:data}
 
-In this work, we estimate the cosmological parameters of the model by employing a Markov Chain Monte Carlo (MCMC) method based on the minimization of the chi-square function, \(\chi^2\) \cite{Padilla_2021}. The chi-square function is given by:
+In this work, we estimate the cosmological parameters of the model by employing a Markov Chain Monte Carlo (MCMC) method based on the minimization of the chi-square function, $\chi^2$ \cite{Padilla_2021}. The chi-square function is given by:
 \begin{equation}
 \chi^2 = \sum_i \left(\frac{D_i - T_i(\mathbf{\theta})}{\sigma_i}\right)^2,
 \end{equation}
-where \(D_i\) represents the \(i\)-th data point, \(T_i(\mathbf{\theta})\) is the theoretical prediction for the corresponding quantity, and \(\sigma_i\) is the error associated with the \(i\)-th data point. Here, \(\mathbf{\theta}\) denotes the vector of model parameters.
+where $D_i$ represents the $i$-th data point, $T_i(\mathbf{\theta})$ is the theoretical prediction for the corresponding quantity, and $\sigma_i$ is the error associated with the $i$-th data point. Here, $\mathbf{\theta}$ denotes the vector of model parameters. To complete the parameter constraints, we utilize the Python package \texttt{emcee} \cite{emcee}, a user-friendly MCMC implementation well-suited for cosmological data analysis.
+
 
 For our analysis, we combine three independent observational datasets:
 
@@ -390,63 +396,41 @@ and the volume-averaged distance ombineing line-of-sight and transverse distance
     D_M&=\frac{D_L}{1+z}\\
     D_V&=\left[\frac{cz}{H(z)}\right]^{1/3}\left[\frac{D_L}{1+z}\right]^{2/3}
 \end{align}
-Where $D_L$ is the luminosity distance. When scaled by the sound horizon at the drag epoch \(r_d\) , ratios such as \(D_H/r_d\), \(D_M/r_d\), and \(D_V/r_d\) serve as important observables for constraining cosmological models and testing the standard model of cosmology.
+Where $D_L$ is the luminosity distance. When scaled by the sound horizon at the drag epoch $r_d$ , ratios such as $D_H/r_d$, $D_M/r_d$, and $D_V/r_d$ serve as important observables for constraining cosmological models and testing the standard model of cosmology.
 
 \begin{table}
-    \centering
-    % \footnotesize
-    % \setlength{\tabcolsep}{.7em}
-    % \renewcommand{\arraystretch}{1.2}
-    % \resizebox{\hsize}{!}
     \begin{center}
+    \caption{BAO dataset used in the study, referenced from \cite{luongoDarkEnergyReconstructions2024}. The table includes data from the 6dFGS survey \cite{Beutler_2011}, SDSS survey \cite{PhysRevD.103.083533}, and DESI 2024 BAO data \cite{desicollaboration2024desi2024vicosmological}. The table provides effective redshifts $ z_\text{eff} $, along with measurements of the ratio $ D_{\rm M}/r_{\rm d} $, $ D_{\rm H}/r_{\rm d} $, and $ D_{\rm V}/r_{\rm d} $ respectively.}
+    \label{tab:baodata}
     \begin{tabular}{lcccc}
-    \hline\hline
-    Survey          & $z_\text{eff}$ & $D_{\rm M}/r_{\rm d}$
-                                     & $D_{\rm H}/r_{\rm d}$
-                                     & $D_{\rm V}/r_{\rm d}$\\
-    \hline
+    \toprule
+    Survey          & $z_\text{eff}$ & $D_{\rm M}/r_{\rm d}$ & $D_{\rm H}/r_{\rm d}$ & $D_{\rm V}/r_{\rm d}$\\
+    \midrule
     6dFGS		    & $0.106$	& & & $2.98\pm0.13$ \\
-    \hline
+    \midrule
     SDSS MGS 		& $0.15$	& & & $4.51\pm0.14$ \\
-    SDSS DR12		& $0.38$    & $10.27\pm0.15$
-                                & $24.89\pm 0.58$ & \\
-    SDSS DR12		& $0.51$    & $13.38\pm0.18$
-                                & $22.43\pm 0.48$ & \\
-    SDSS DR16 LRG	& $0.70$    & $17.65\pm0.30$
-                                & $19.78\pm0.46$ & \\
-    SDSS DR16 ELG	& $0.85$	& $19.50\pm1.00$
-                                & $19.60\pm2.10$ & \\
-    SDSS DR16 QSO	& $1.48$    & $30.21\pm0.79$
-                                & $13.23\pm0.47$ & \\
-    SDSS DR16 Ly$\alpha$--Ly$\alpha$
-                    & $2.33$    & $37.60\pm1.90$
-                                & $8.93\pm0.28$ & \\
-    SDSS DR16 Ly$\alpha$--QSO	
-                    & $2.33$    & $37.30\pm1.70$
-                                & $9.08\pm0.34$ & \\
-    \hline
+    SDSS DR12		& $0.38$    & $10.27\pm0.15$ & $24.89\pm 0.58$ & \\
+    SDSS DR12		& $0.51$    & $13.38\pm0.18$ & $22.43\pm 0.48$ & \\
+    SDSS DR16 LRG	& $0.70$    & $17.65\pm0.30$ & $19.78\pm0.46$ & \\
+    SDSS DR16 ELG	& $0.85$	& $19.50\pm1.00$ & $19.60\pm2.10$ & \\
+    SDSS DR16 QSO	& $1.48$    & $30.21\pm0.79$ & $13.23\pm0.47$ & \\
+    SDSS DR16 Ly$\alpha$-Ly$\alpha$& $2.33$     & $37.60\pm1.90$& $8.93\pm0.28$ & \\
+    SDSS DR16 Ly$\alpha$-QSO	& $2.33$ & $37.30\pm1.70$& $9.08\pm0.34$ & \\
+    \midrule
     DESI BGS 		& $0.30$    & & & $7.93\pm0.15$ \\
-    DESI LRG1	 	& $0.51$ 	& $13.62\pm0.25$
-                                & $20.98\pm0.61$ & \\
-    DESI LRG2       & $0.71$ 	& $16.85\pm0.32$
-                                & $20.08\pm0.60 $& \\
-    DESI LRG+ELG    & $0.93$    & $21.71\pm0.28$
-                                & $17.88\pm0.35$ & \\
-    DESI ELG        & $1.32$    & $27.79\pm0.69$
-                                & $13.82\pm0.42$ & \\
+    DESI LRG1	 	& $0.51$ 	& $13.62\pm0.25$ & $20.98\pm0.61$ & \\
+    DESI LRG2       & $0.71$ 	& $16.85\pm0.32$ & $20.08\pm0.60 $& \\
+    DESI LRG+ELG    & $0.93$    & $21.71\pm0.28$ & $17.88\pm0.35$ & \\
+    DESI ELG        & $1.32$    & $27.79\pm0.69$ & $13.82\pm0.42$ & \\
     DESI QSO		& $1.49$	& & & $26.07\pm0.67$ \\
-    DESI Ly$\alpha$--QSO
-                    & $2.33$ 	& $39.71\pm0.94$
-                                & $8.52\pm0.17$ & \\
-    \hline
+    DESI Ly$\alpha$-QSO & $2.33$ 	& $39.71\pm0.94$ & $8.52\pm0.17$ & \\
+    \bottomrule
     \end{tabular}
     \end{center}
-    \caption{BAO dataset. This table is referenced from \cite{luongoDarkEnergyReconstructions2024}, including 6dFGS data \cite{Beutler_2011}, SDSS data \cite{PhysRevD.103.083533})and DESI2024 BAO data \cite{desicollaboration2024desi2024vicosmological}}
-    \label{tab:baodata}
 \end{table}
 
 
-2. Chronometers Data (OHD): The Hubble parameter measurements, known as the chronometers data, provide independent estimates of the Hubble parameter \(H(z)\) at various redshifts. These data serve as an important probe of the expansion rate of the universe. We choose the dataset from \cite{Favale_2023}
+2. Cosmic chronometers (CC) Data : The Hubble parameter measurements, known as the chronometers data, provide independent estimates of the Hubble parameter $H(z)$ at various redshifts. These data serve as an important probe of the expansion rate of the universe. We choose the dataset from \cite{Favale_2023} which includes 32 CC data points incorporating both the statistical and systematic errors within the redshift range of $0.07 < z < 1.965$.
 
 3. Type Ia Supernovae (SNIa) Data: Type Ia supernovae (SNIa) are considered standard candles because When the light curve reaches its maximum, the absolute luminosity is almost the same. The distance modulus $\mu$ can be obtained according to the following formula
 \begin{equation}
@@ -462,7 +446,7 @@ where $M_b$ denotes the absolute luminosity of SNIa and the luminosity distance 
 \end{equation}
 In this paper, we use Pantheon+ dataset who comprises 1701 SNIa samples, an increase from the 1048 samples in Pantheon dataset. Pantheon+ dataset consists of 1701 light curves of 1550 spectroscopically confirmed SNIa within the redshift range of $0.001 < z < 2.26$ \cite{Scolnic_2022,Brout_2022}.
 
-The combined likelihood function \(\mathcal{L}\) is then constructed by multiplying the individual likelihoods of each dataset:
+The combined likelihood function $\mathcal{L}$ is then constructed by multiplying the individual likelihoods of each dataset:
 \begin{equation}
 \mathcal{L} = \mathcal{L}_{\text{BAO}} \times \mathcal{L}_{\text{OHD}} \times \mathcal{L}_{\text{SNIa}}
 \end{equation}
@@ -470,27 +454,45 @@ it is implied that
 \begin{equation}
     \chi^2_\text{tot}=\chi^2_{\text{BAO}}+\chi^2_{\text{OHD}} +\chi^2_{\text{SNIa}}
 \end{equation}
-In order to test the statistical significance of our constraints we implement the AIC criterion.
-To complete our statistical study, we also use the selection method named the Bayesian Information Criterion (BIC). To calculate the value of BIC for each model we use
+To test the statistical significance of our constraints, we implement the Akaike Information Criterion (AIC) and Bayesian Information Criterion (BIC). These criteria help balance model fit and complexity. The BIC for each model is calculated using the formula:
+\begin{equation}
+\text{BIC} = k \ln(n) - 2 \ln(\mathcal{L})
+\end{equation}
+where $k$ is the number of parameters, $n$ is the number of data points, and $\mathcal{L}$ is the likelihood. The model with the lowest BIC value is considered the best, as it strikes a balance between fit and complexity.
+
+Similarly, the AIC is given by:
+\begin{equation}
+\text{AIC} = 2k - 2 \ln(\mathcal{L})
+\end{equation}
+where $k$ is the number of parameters and $\mathcal{L}$ is the likelihood. The model with the lowest AIC value is preferred, as it provides a good fit while penalizing unnecessary complexity.
+
+
 
 \section{Results and analysis}\label{sec:result}
 
-The results of the parameter constraints obtained in our analysis are summarized in Table~\ref{tab:results}. We find the following 95\% confidence limits for the cosmological and model parameters: the Hubble constant is \( H_0 = 67.7^{+2.5}_{-2.7} \, \text{km/s/Mpc} \), which is consistent with recent Planck measurements, though slightly lower. The parameter \( c \), which governs the modification to the gravitational dynamics, is constrained to \( c = -8.8^{+1.9}_{-2.0} \), indicating a significant deviation from the standard cosmological model. The parameter \( a \), related to the evolution of the modified equation of state, is found to be \( a = -0.180^{+0.065}_{-0.060} \), suggesting a non-negligible deviation from a simple cosmological constant. The inverse mass parameter \( 1/m \) is constrained to \( 1/m = -1.13^{+0.38}_{-0.46} \), reflecting the sensitivity of the model to the mass scale of new physics. The equation of state parameter for dark energy, \( w_{\text{de}} \), is constrained to \( w_{\text{de}} = -0.79^{+0.25}_{-0.28} \), indicating that dark energy is close to but slightly less than the value for a cosmological constant. The absolute magnitude of the reference galaxy, \( M_b \), is \( M_b = -19.397^{+0.079}_{-0.086} \), with a narrow error range consistent with the expected value for the sample of galaxies considered. Finally, the sound horizon at the drag epoch, \( r_d \), is measured to be \( r_d = 145.2^{+5.7}_{-5.2} \, \text{Mpc} \), in agreement with current measurements from the cosmic microwave background (CMB) and other large-scale structure surveys. These results provide a comprehensive view of the cosmological parameters within the modified gravity framework, indicating a viable model that is consistent with observational data while deviating from the standard cosmological model, particularly in the modification to the dark energy equation of state and gravitational dynamics. The results show that our results may alleviate the Hubble tension.
+We use python package getdist \cite{Lewis:2019xzd} from chains of results to plot the corner figure as shown in Fig. \ref{Fig:constraint}. The results of the parameter constraints obtained in our analysis are summarized in Table \ref{tab:results}. We find the following 95\% confidence limits for the cosmological and model parameters: the Hubble constant is $ H_0 = 67.7^{+2.5}_{-2.7} \, \text{km/s/Mpc} $, which is consistent with recent Planck measurements, though slightly lower. The parameter $ c $, which governs the modification to the gravitational dynamics, is constrained to $ c = -8.8^{+1.9}_{-2.0} $, indicating a significant deviation from the standard cosmological model. The parameter $ a $, related to the evolution of the modified equation of state, is found to be $ a = -0.180^{+0.065}_{-0.060} $, suggesting a non-negligible deviation from a simple cosmological constant. The inverse mass parameter $ 1/m $ is constrained to $ 1/m = -1.13^{+0.38}_{-0.46} $, reflecting the sensitivity of the model to the mass scale of new physics. The equation of state parameter for dark energy, $ w_{\text{de}} $, is constrained to $ w_{\text{de}} = -0.79^{+0.25}_{-0.28} $, indicating that dark energy is close to but slightly less than the value for a cosmological constant. The absolute magnitude of the reference galaxy, $ M_b $, is $ M_b = -19.397^{+0.079}_{-0.086} $, with a narrow error range consistent with the expected value for the sample of galaxies considered. Finally, the sound horizon at the drag epoch, $ r_d $, is measured to be $ r_d = 145.2^{+5.7}_{-5.2} \, \text{Mpc} $, in agreement with current measurements from the cosmic microwave background (CMB) and other large-scale structure surveys. These results provide a comprehensive view of the cosmological parameters within the modified gravity framework, indicating a viable model that is consistent with observational data while deviating from the standard cosmological model, particularly in the modification to the dark energy equation of state and gravitational dynamics.
+
+We first plotted the evolution of the Hubble parameter as a function of redshift under the best-fit scenarios for both the non-minimal coupling and minimal coupling models between matter and dark energy (Fig. \ref{Fig.sub.1}). For comparison, we also included the evolution curve of the $\Lambda$CDM model under the same conditions. We observed that the non-minimal coupling model suppresses the value of the Hubble parameter at high redshift, while the minimal coupling model, which neglects interaction, tends to exhibit a flatter curve. This behavior indicates that the interaction in the non-minimal coupling model redistributes energy between matter and dark energy, reducing the dominance of matter at high redshift. In contrast, the minimal coupling model evolves more independently, closely following the standard $\Lambda$CDM behavior. We also plotted the relationship between the distance modulus of supernovae and redshift as predicted by the models (Fig. \ref{Fig.sub.2}), along with the data points and error bars obtained from the Pantheon+ dataset. We found that all the models provide a reasonably good fit to the observed distance modulus of supernovae. 
+
+To investigate the evolution of our model, we calculate the deceleration factor and the effective equation of state (EOS), as shown in Fig.~\ref{Fig3.sub.1} and Fig.~\ref{Fig3.sub.2}. The evolution of the deceleration factor reveals the transition to the accelerating expansion phase around $z \approx 0.8$. Meanwhile, the effective EOS, which accounts for all components of the universe, provides a comprehensive reflection of the cosmic expansion history and asymptotically approaches $-1$ in the future, consistent with a cosmological constant-dominated universe.
+
+
+
 
 \begin{figure}
     \centering
     \includegraphics[width=1\linewidth]{./pic/getdist.eps}
-    \caption{\label{fig:constraint} The 1$\sigma$ and 2$\sigma$ confidence contours and the 1D posterior distributions obtained from MCMC constraint of HDE in $f(Q,T)$ gravity using BAO+SNIa+OHD+DESI data}
+    \caption{\label{Fig:constraint} The 1$\sigma$ and 2$\sigma$ confidence contours and the 1D posterior distributions obtained from MCMC constraint of HDE in $f(Q,T)$ gravity using BAO+SNIa+OHD+DESI data.}
 \end{figure}
 
 
 \begin{table}
     \centering
-    \caption{Results of Constraint on parameters with prior ranges and $95\%$ credible limits}
-    \begin{tabular} { l  c  c}
-        \hline\hline
+    \caption{Results of Constraint on parameters with prior ranges and $95\%$ credible limits.}
+    \begin{tabular} { l  c  r}
+        \toprule
         Parameter & Prior & 95\% limits\\
-        \hline
+        \midrule
         {\boldmath$H_0            $} & $[50, 100]$ & $67.7^{+2.5}_{-2.7}$ \\
         
         {\boldmath$c              $} & $[-20, 0]$ & $-8.8^{+1.9}_{-2.0}$ \\
@@ -501,46 +503,46 @@ The results of the parameter constraints obtained in our analysis are summarized
         
         {\boldmath$w_{de}         $} & $[-1.5, 0]$ & $-0.79^{+0.25}_{-0.28}$ \\
         
-        {\boldmath$M_b            $} & $[20, 30]$ & $-19.397^{+0.079}_{-0.086}$ \\
+        {\boldmath$M_b            $} & $[-30, 0]$ & $-19.397^{+0.079}_{-0.086}$ \\
         
         {\boldmath$r_d            $} & $[100, 200]$ & $145.2^{+5.7}_{-5.2}$ \\
-        \hline
+        \bottomrule
     \end{tabular}
 
     \label{tab:results}
 \end{table}
 
     
-\begin{figure}[h]
+\begin{figure}
     \centering
-    \subfigure[name1]{
+    \subfigure[Data points of Cosmic Chronometer (CC) Hubble parameters versus redshift, along with the best-fit curves for each model.]{
     \label{Fig.sub.1}
     \includegraphics[width=0.45\textwidth]{./pic/H-z_relation.eps}}
-    \subfigure[Data points of supernova distance modulus and redshift and the fit of each model]{
+    \subfigure[Data points of supernova distance modulus versus redshift along with the best-fit curves for each model.]{
     \label{Fig.sub.2}
     \includegraphics[width=0.45\textwidth]{./pic/mu-z_relation.eps}}
-    \caption{Main name}
+    \caption{Observational data and best-fit curves for different models: (a) Supernova distance modulus versus redshift and (b) Cosmic Chronometer (CC) Hubble parameters versus redshift.}
     \label{Fig.main}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}
     \centering
-    \subfigure[name1]{
+    \subfigure[Hubble distance over the sound horizon at the drag epoch $D_H/r_d(z)$ as a function of redshift $z$.]{
     \label{Fig2.sub.1}
     \includegraphics[width=0.45\textwidth]{./pic/DH-z_relation.eps}}
-    \subfigure[name2]{
+    \subfigure[The comoving diameter distance over the sound horizon at the drag epoch $D_M/r_d(z)$ as a function of redshift $z$.]{
     \label{Fig2.sub.2}
     \includegraphics[width=0.45\textwidth]{./pic/DM-z_relation.eps}}
-    \subfigure[name3]{
+    \subfigure[The angle-average distance over the sound horizon at the drag epoch $D_V/r_d(z)$ as a function of redshift $z$.]{
     \label{Fig2.sub.3}
     \includegraphics[width=0.45\textwidth]{./pic/DV-z_relation.eps}}
-    \caption{Main name}
+    \caption{Fitting curves of HDE models in BAO, the error bars represent the data from the 6dFGS, SDSS, and DESI BAO measurements.}
     \label{Fig2.main}
 \end{figure}
 
 \begin{figure}[h]
     \centering
-    \subfigure[The evolution of the models' deceleration factor which reflects the accelerating expansion phase in $z\approx 0.8$]{
+    \subfigure[The evolution of the models' deceleration factor which reflects the accelerating expansion phase in $z\approx 0.8$.]{
     \label{Fig3.sub.1}
     \includegraphics[width=0.45\textwidth]{./pic/q-z_relation.eps}}
     \subfigure[The effective EOS, accounting for all components, provides a direct reflection of the cosmic expansion history and ultimately approaches -1.]{
@@ -559,7 +561,7 @@ We consider holographic dark energy due to its solid theoretical foundation and 
 
 For analytical simplicity, we focus on a few toy models that allow us to explore certain special cases: $\Delta=0$ for the loosest constraints and $\Delta=1$ for the tightest limits on energy density, while discussing the potential effects of non-minimal matter coupling.
 
-To validate the model, we performed parameter estimation using recent supernova data, BAO data, and direct measurements of the Hubble parameter. By employing the MCMC method, we obtained estimates for the model parameters. Our results show that the model can effectively alleviate the Hubble constant tension. Specifically, we find that the Hubble constant is ..., in agreement with the standard cosmological model's result of .... We also study the evolution of the universe under this model and observe that the deceleration factor and the effective equation of state parameter indicate accelerated expansion, consistent with current observations.
+To validate the model, we performed parameter estimation using recent supernova data, BAO data, and direct measurements of the Hubble parameter. By employing the MCMC method, we obtained estimates for the model parameters. Our results show that the model can effectively alleviate the Hubble constant tension. Specifically, we find that the Hubble constant is $67.7^{+2.5}_{-2.7}\, \text{km/s/Mpc}$, a deviation greater than 2 $\sigma$ of lastest constraint result of LCDM $69.48^{+0.94}_{-0.94}\, \text{km/s/Mpc}$ through DESI BAO and Planck measurements \cite{pogosian2024consistencytestcosmologicalmodel}. We also study the evolution of the universe under this model and observe that the deceleration factor and the effective equation of state parameter indicate accelerated expansion, consistent with current observations.
 
 Although this model is not yet conclusive—due to the introduction of numerous parameters and significant assumptions—it provides an interesting framework for thinking about cosmic evolution. The results and analysis presented here offer valuable insights, and further exploration of more complex scenarios will be necessary in future studies.
 

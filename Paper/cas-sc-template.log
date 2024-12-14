@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024/Arch Linux) (preloaded format=xelatex 2024.11.10)  13 DEC 2024 17:33
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024/Arch Linux) (preloaded format=xelatex 2024.11.10)  14 DEC 2024 14:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -910,39 +910,39 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 \verbatim@out=\write5
 \openout5 = `cas-sc-template.abs'.
 
-LaTeX Font Info:    Trying to load font information for LS1+stixscr on input line 194.
+LaTeX Font Info:    Trying to load font information for LS1+stixscr on input line 191.
 (/usr/share/texmf-dist/tex/latex/stix/ls1stixscr.fd
 File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS2+stixex on input line 194.
+LaTeX Font Info:    Trying to load font information for LS2+stixex on input line 191.
  (/usr/share/texmf-dist/tex/latex/stix/ls2stixex.fd
 File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 194.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 191.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 194.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 191.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input line 194.
+LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input line 191.
  (/usr/share/texmf-dist/tex/latex/stix/ls1stixfrak.fd
 File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS1+stixbb on input line 194.
+LaTeX Font Info:    Trying to load font information for LS1+stixbb on input line 191.
  (/usr/share/texmf-dist/tex/latex/stix/ls1stixbb.fd
 File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS2+stixcal on input line 194.
+LaTeX Font Info:    Trying to load font information for LS2+stixcal on input line 191.
  (/usr/share/texmf-dist/tex/latex/stix/ls2stixcal.fd
 File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS1+stixsf on input line 194.
+LaTeX Font Info:    Trying to load font information for LS1+stixsf on input line 191.
  (/usr/share/texmf-dist/tex/latex/stix/ls1stixsf.fd
 File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS2+stixtt on input line 194.
+LaTeX Font Info:    Trying to load font information for LS2+stixtt on input line 191.
  (/usr/share/texmf-dist/tex/latex/stix/ls2stixtt.fd
 File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 )
@@ -963,7 +963,6 @@ File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 
 Package hyperref Warning: Ignoring empty anchor on input line 194.
 
-Missing character: There is no — ("2014) in font t1-stixgeneral!
 Missing character: There is no — ("2014) in font t1-stixgeneral!
 Missing character: There is no – ("2013) in font t1-stixgeneral!
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 207.
@@ -1008,23 +1007,17 @@ File: ./pic/H-z_relation.eps Graphic file (type eps)
 <./pic/H-z_relation.eps>
 File: ./pic/mu-z_relation.eps Graphic file (type eps)
 <./pic/mu-z_relation.eps>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: ./pic/DH-z_relation.eps Graphic file (type eps)
 <./pic/DH-z_relation.eps>
 File: ./pic/DM-z_relation.eps Graphic file (type eps)
 <./pic/DM-z_relation.eps>
 File: ./pic/DV-z_relation.eps Graphic file (type eps)
 <./pic/DV-z_relation.eps>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: ./pic/q-z_relation.eps Graphic file (type eps)
 <./pic/q-z_relation.eps>
 File: ./pic/w_eff-z_relation.eps Graphic file (type eps)
 <./pic/w_eff-z_relation.eps>
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1034,24 +1027,22 @@ $[]$
  []
 
 [8]
-Missing character: There is no — ("2014) in font t1-stixgeneral!
-Missing character: There is no — ("2014) in font t1-stixgeneral!
-
 Underfull \hbox (badness 10000) has occurred while \output is active
 $[]$
  []
 
 [9]
+Missing character: There is no — ("2014) in font t1-stixgeneral!
+Missing character: There is no — ("2014) in font t1-stixgeneral!
 Missing character: There is no ‐ ("2010) in font t1-stixgeneral!
 Missing character: There is no – ("2013) in font t1-stixgeneral!
+Missing character: There is no ∼ ("223C) in font t1-stixgeneral!
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 $[]$
  []
 
 [10]
-Missing character: There is no ∼ ("223C) in font t1-stixgeneral!
-
 Underfull \hbox (badness 10000) has occurred while \output is active
 $[]$
  []
@@ -1071,7 +1062,12 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 $[]$
  []
 
-[13] (./cas-sc-template.aux)
+[13]
+Underfull \hbox (badness 10000) has occurred while \output is active
+$[]$
+ []
+
+[14] (./cas-sc-template.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1083,12 +1079,12 @@ Package logreq Info: Writing requests to 'cas-sc-template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23550 strings out of 476761
- 395291 string characters out of 5802894
+ 23569 strings out of 476761
+ 396148 string characters out of 5802894
  1947839 words of memory out of 5000000
- 45241 multiletter control sequences out of 15000+600000
- 682892 words of font info for 201 fonts, out of 8000000 for 9000
+ 45259 multiletter control sequences out of 15000+600000
+ 683205 words of font info for 202 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 87i,13n,93p,2157b,5226s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,13n,93p,2170b,5273s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on cas-sc-template.xdv (13 pages, 133612 bytes).
+Output written on cas-sc-template.xdv (14 pages, 145532 bytes).
