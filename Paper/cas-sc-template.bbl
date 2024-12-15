@@ -3999,107 +3999,6 @@
       \verb http://link.springer.com/10.1007/s10509-016-2740-1
       \endverb
     \endentry
-    \entry{Padilla_2021}{article}{}
-      \name{author}{4}{}{%
-        {{hash=d652db9406d0b18484fc9dfdb3ae6ea5}{%
-           family={Padilla},
-           familyi={P\bibinitperiod},
-           given={Luis\bibnamedelima E.},
-           giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=24a234fd0943b47b73f40abd8e876230}{%
-           family={Tellez},
-           familyi={T\bibinitperiod},
-           given={Luis\bibnamedelima O.},
-           giveni={L\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
-        {{hash=36ef5f1e1f3537e11adde51ab26548ac}{%
-           family={Escamilla},
-           familyi={E\bibinitperiod},
-           given={Luis\bibnamedelima A.},
-           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=1c4d98f5e3fa6ce1df286f5b16099252}{%
-           family={Vazquez},
-           familyi={V\bibinitperiod},
-           given={Jose\bibnamedelima Alberto},
-           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {MDPI AG}%
-      }
-      \strng{namehash}{c18b6199e35332ba6f4cf3a5e3d6bd81}
-      \strng{fullhash}{30449d91c86c005f4f05e2815d4b5ef2}
-      \strng{bibnamehash}{c18b6199e35332ba6f4cf3a5e3d6bd81}
-      \strng{authorbibnamehash}{c18b6199e35332ba6f4cf3a5e3d6bd81}
-      \strng{authornamehash}{c18b6199e35332ba6f4cf3a5e3d6bd81}
-      \strng{authorfullhash}{30449d91c86c005f4f05e2815d4b5ef2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{2218-1997}
-      \field{journaltitle}{Universe}
-      \field{month}{6}
-      \field{number}{7}
-      \field{title}{Cosmological Parameter Inference with Bayesian Statistics}
-      \field{volume}{7}
-      \field{year}{2021}
-      \field{pages}{213}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/universe7070213
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.3390/universe7070213
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.3390/universe7070213
-      \endverb
-    \endentry
-    \entry{emcee}{article}{}
-      \name{author}{4}{}{%
-        {{hash=d09afa31aa9325481d13539e96101e87}{%
-           family={{Foreman-Mackey}},
-           familyi={F\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=e44f2429aa27102b8de90336a034ec87}{%
-           family={{Hogg}},
-           familyi={H\bibinitperiod},
-           given={D.\bibnamedelimi W.},
-           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=cf255403aea7d59ec6433690f5f81fc6}{%
-           family={{Lang}},
-           familyi={L\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=77f431e0ec9763954574644dcc1d1b49}{%
-           family={{Goodman}},
-           familyi={G\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{6c28e95219898fe2fdaba62bcb4eb900}
-      \strng{fullhash}{993eb0e378218303f25a32d697812970}
-      \strng{bibnamehash}{6c28e95219898fe2fdaba62bcb4eb900}
-      \strng{authorbibnamehash}{6c28e95219898fe2fdaba62bcb4eb900}
-      \strng{authornamehash}{6c28e95219898fe2fdaba62bcb4eb900}
-      \strng{authorfullhash}{993eb0e378218303f25a32d697812970}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{PASP}
-      \field{title}{emcee: The MCMC Hammer}
-      \field{volume}{125}
-      \field{year}{2013}
-      \field{pages}{306\bibrangedash 312}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1086/670067
-      \endverb
-      \verb{eprint}
-      \verb 1202.3665
-      \endverb
-    \endentry
     \entry{luongoDarkEnergyReconstructions2024}{misc}{}
       \name{author}{2}{}{%
         {{hash=a82cf6ee1dcba7f5f84af59adfac0d44}{%
@@ -5815,6 +5714,107 @@
       \verb https://arxiv.org/abs/2404.03002
       \endverb
     \endentry
+    \entry{Padilla_2021}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d652db9406d0b18484fc9dfdb3ae6ea5}{%
+           family={Padilla},
+           familyi={P\bibinitperiod},
+           given={Luis\bibnamedelima E.},
+           giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=24a234fd0943b47b73f40abd8e876230}{%
+           family={Tellez},
+           familyi={T\bibinitperiod},
+           given={Luis\bibnamedelima O.},
+           giveni={L\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=36ef5f1e1f3537e11adde51ab26548ac}{%
+           family={Escamilla},
+           familyi={E\bibinitperiod},
+           given={Luis\bibnamedelima A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1c4d98f5e3fa6ce1df286f5b16099252}{%
+           family={Vazquez},
+           familyi={V\bibinitperiod},
+           given={Jose\bibnamedelima Alberto},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI AG}%
+      }
+      \strng{namehash}{c18b6199e35332ba6f4cf3a5e3d6bd81}
+      \strng{fullhash}{30449d91c86c005f4f05e2815d4b5ef2}
+      \strng{bibnamehash}{c18b6199e35332ba6f4cf3a5e3d6bd81}
+      \strng{authorbibnamehash}{c18b6199e35332ba6f4cf3a5e3d6bd81}
+      \strng{authornamehash}{c18b6199e35332ba6f4cf3a5e3d6bd81}
+      \strng{authorfullhash}{30449d91c86c005f4f05e2815d4b5ef2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2218-1997}
+      \field{journaltitle}{Universe}
+      \field{month}{6}
+      \field{number}{7}
+      \field{title}{Cosmological Parameter Inference with Bayesian Statistics}
+      \field{volume}{7}
+      \field{year}{2021}
+      \field{pages}{213}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/universe7070213
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.3390/universe7070213
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.3390/universe7070213
+      \endverb
+    \endentry
+    \entry{emcee}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d09afa31aa9325481d13539e96101e87}{%
+           family={{Foreman-Mackey}},
+           familyi={F\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e44f2429aa27102b8de90336a034ec87}{%
+           family={{Hogg}},
+           familyi={H\bibinitperiod},
+           given={D.\bibnamedelimi W.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=cf255403aea7d59ec6433690f5f81fc6}{%
+           family={{Lang}},
+           familyi={L\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=77f431e0ec9763954574644dcc1d1b49}{%
+           family={{Goodman}},
+           familyi={G\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{6c28e95219898fe2fdaba62bcb4eb900}
+      \strng{fullhash}{993eb0e378218303f25a32d697812970}
+      \strng{bibnamehash}{6c28e95219898fe2fdaba62bcb4eb900}
+      \strng{authorbibnamehash}{6c28e95219898fe2fdaba62bcb4eb900}
+      \strng{authornamehash}{6c28e95219898fe2fdaba62bcb4eb900}
+      \strng{authorfullhash}{993eb0e378218303f25a32d697812970}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PASP}
+      \field{title}{emcee: The MCMC Hammer}
+      \field{volume}{125}
+      \field{year}{2013}
+      \field{pages}{306\bibrangedash 312}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1086/670067
+      \endverb
+      \verb{eprint}
+      \verb 1202.3665
+      \endverb
+    \endentry
     \entry{Favale_2023}{article}{}
       \name{author}{3}{}{%
         {{hash=0cb99f2c10f4aba611d9e010cf1bad9a}{%
@@ -5842,8 +5842,8 @@
       \strng{authorbibnamehash}{e59eb21099748c197fe831b03d9d6ed4}
       \strng{authornamehash}{e59eb21099748c197fe831b03d9d6ed4}
       \strng{authorfullhash}{e59eb21099748c197fe831b03d9d6ed4}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1365-2966}
@@ -6027,8 +6027,8 @@
       \strng{authorbibnamehash}{b752e98c732e82282e68d11aff3f80aa}
       \strng{authornamehash}{b752e98c732e82282e68d11aff3f80aa}
       \strng{authorfullhash}{f02bbe85ed3842a0c087183205e508fa}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1538-4357}
@@ -6302,8 +6302,8 @@
       \strng{authorbibnamehash}{77f52d577b3fa1112c21325b4df415b1}
       \strng{authornamehash}{77f52d577b3fa1112c21325b4df415b1}
       \strng{authorfullhash}{26912ff49bca6ac5f8498656c21909bb}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1538-4357}
@@ -6355,6 +6355,54 @@
       \endverb
       \verb{url}
       \verb https://getdist.readthedocs.io
+      \endverb
+    \endentry
+    \entry{rudraObservationalConstraintFRT2021}{article}{}
+      \name{author}{2}{}{%
+        {{hash=378bc96dbb059181e3796cffd26d96d2}{%
+           family={Rudra},
+           familyi={R\bibinitperiod},
+           given={Prabir},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9bd496db14e32653948aba3ea3c41b84}{%
+           family={Giri},
+           familyi={G\bibinitperiod},
+           given={Kinsuk},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{4256d6e9f955f0a30733947b6fd6f3e7}
+      \strng{fullhash}{4256d6e9f955f0a30733947b6fd6f3e7}
+      \strng{bibnamehash}{4256d6e9f955f0a30733947b6fd6f3e7}
+      \strng{authorbibnamehash}{4256d6e9f955f0a30733947b6fd6f3e7}
+      \strng{authornamehash}{4256d6e9f955f0a30733947b6fd6f3e7}
+      \strng{authorfullhash}{4256d6e9f955f0a30733947b6fd6f3e7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{05503213}
+      \field{journaltitle}{Nuclear Physics B}
+      \field{month}{6}
+      \field{title}{Observational constraint in f({R},{T}) gravity from the cosmic chronometers and some standard distance measurement parameters}
+      \field{urlday}{5}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{volume}{967}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{115428}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.nuclphysb.2021.115428
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0550321321001255
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0550321321001255
       \endverb
     \endentry
     \entry{pogosian2024consistencytestcosmologicalmodel}{misc}{}

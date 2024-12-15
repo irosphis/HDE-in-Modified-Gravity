@@ -1,18 +1,18 @@
 # Fdb version 4
-["biber cas-sc-template"] 1734156617.27515 "cas-sc-template.bcf" "cas-sc-template.bbl" "cas-sc-template" 1734156714.97008 0
-  "cas-refs.bib" 1734156614.28564 55509 db09ac6d5e83ea47d8db1353a16a376f ""
-  "cas-sc-template.bcf" 1734156714.03538 111480 66a7b161954f0f2f9d9498fec791c2f4 "xelatex"
+["biber cas-sc-template"] 0 "cas-sc-template.bcf" "cas-sc-template.bbl" "cas-sc-template" 1734277515.53472 -1
+  "cas-refs.bib" 1734273754.02508 56017 415431ff92129df297ea16a6cd84c21c ""
+  "cas-sc-template.bcf" 1734277514.64508 111813 930ba6e9e26e0383c00590e952e230ad "xelatex"
   (generated)
   "cas-sc-template.bbl"
   "cas-sc-template.blg"
   (rewritten before read)
-["xdvipdfmx"] 1734156714.09326 "cas-sc-template.xdv" "cas-sc-template.pdf" "cas-sc-template" 1734156714.97167 0
-  "cas-sc-template.xdv" 1734156714.03538 145532 ab1528d000745c4bc52bb8968f9b1c0b "xelatex"
+["xdvipdfmx"] 1734277514.69844 "cas-sc-template.xdv" "cas-sc-template.pdf" "cas-sc-template" 1734277515.53603 0
+  "cas-sc-template.xdv" 1734277514.64508 157880 c2485e9fff1c6b3e4fba8a44bed88a1d "xelatex"
   (generated)
   "cas-sc-template.pdf"
   (rewritten before read)
-["xelatex"] 1734156712.62886 "/home/sralus/workwork/modify-gravity/Paper/cas-sc-template.tex" "cas-sc-template.xdv" "cas-sc-template" 1734156714.97019 0
-  "/home/sralus/workwork/modify-gravity/Paper/cas-sc-template.tex" 1734156712.46876 44347 95b2903daee1dc121f936896f4322eda ""
+["xelatex"] 1734277513.39418 "/home/sralus/workwork/modify-gravity/Paper/cas-sc-template.tex" "cas-sc-template.xdv" "cas-sc-template" 1734277515.5348 0
+  "/home/sralus/workwork/modify-gravity/Paper/cas-sc-template.tex" 1734277510.66845 48304 dd05d3e80d2f16b16d4cd92658ba8ad0 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1727349926 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1727349926 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/ectt0800.tfm" 1727349926 1536 0b0b8ca286de6a006b681926403f35cd ""
@@ -163,21 +163,21 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1727349926 41588 b43d3e860a4f94167ee1e725ff526a72 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1731253540 9579491 d3b591890b54e339308fabbbd21cbaf2 ""
   "cas-common.sty" 1733968650 76688 c602be3da196cb506acc84d1fa26b134 ""
-  "cas-sc-template.abs" 1734156713.42873 876 79ad0c52ff1b756092912752c4feadf3 "xelatex"
-  "cas-sc-template.aux" 1734156714.02871 20710 314541b0ceadeb0e594f7c12070f5314 "xelatex"
-  "cas-sc-template.bbl" 1734156618.76214 261391 c9cfed9f308e95be42c9d41e11bae639 "biber cas-sc-template"
-  "cas-sc-template.out" 1734156713.34207 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "cas-sc-template.run.xml" 1734156714.03538 2415 aebe3238c93ecbedd24c1d0160b7ac41 "xelatex"
-  "cas-sc-template.tex" 1734156712.46876 44347 95b2903daee1dc121f936896f4322eda ""
+  "cas-sc-template.abs" 1734277514.12175 876 79ad0c52ff1b756092912752c4feadf3 "xelatex"
+  "cas-sc-template.aux" 1734277514.64174 22209 48a3ea77cc9f79e99edc450e9658092c "xelatex"
+  "cas-sc-template.bbl" 1734277076.59972 263188 0c299e1b618f99723cc6b4b39d50778d "biber cas-sc-template"
+  "cas-sc-template.out" 1734277514.04508 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "cas-sc-template.run.xml" 1734277514.64508 2415 aebe3238c93ecbedd24c1d0160b7ac41 "xelatex"
+  "cas-sc-template.tex" 1734277510.66845 48304 dd05d3e80d2f16b16d4cd92658ba8ad0 ""
   "cas-sc.cls" 1733968650 4410 65b518b1d7581e9c4ebe84b81471ee59 ""
-  "pic/DH-z_relation.eps" 1734078424.1111 35916 efc28c8c3c2f99061be03c36a0544c3a ""
-  "pic/DM-z_relation.eps" 1734078423.68111 34366 c7a689b0259a9917eea2266337d644c8 ""
-  "pic/DV-z_relation.eps" 1734078423.75111 35830 e8a5279b96e556f504fe50eeb3371b50 ""
-  "pic/H-z_relation.eps" 1734078423.90111 29236 44f4a47251107213817a3e7caa998469 ""
+  "pic/DH-z_relation.eps" 1734167104.44047 39799 b587ec3bff65ea6f51e05fc3fcfd4a1c ""
+  "pic/DM-z_relation.eps" 1734167104.06048 40227 161a3ed9844aba24eaee1f62d6451c5b ""
+  "pic/DV-z_relation.eps" 1734167104.01049 43594 2c122d5883c00e143e69189d6f25ed80 ""
+  "pic/H-z_relation.eps" 1734167594.50082 36844 6bb8d314520e988f8ef7092f1a6e0479 ""
   "pic/getdist.eps" 1734078427.2177 1211451 4207ecdab454343b2f3ddf37d7993f8a ""
-  "pic/mu-z_relation.eps" 1734078425.50774 238301 bd68c87053b7053eff358ef6c2097b42 ""
-  "pic/q-z_relation.eps" 1734079060.00152 33465 b17c4af96da919e66d2140f4c40ebc8a ""
-  "pic/w_eff-z_relation.eps" 1734078423.92777 31120 5309ed6c5a86d49df1e121bb9de27055 ""
+  "pic/mu-z_relation.eps" 1734167594.51749 245996 d6f7fce75a0100e6b474423db28a3f00 ""
+  "pic/q-z_relation.eps" 1734167104.15715 26642 101a8d137c806346dc5f3ceb5c3856bb ""
+  "pic/w_eff-z_relation.eps" 1734167104.18381 26685 dadc437f85d94105cb2a360df0dc42de ""
   "thumbnails/cas-email.jpeg" 1733968650 8764 ae276cc9956197082d008c18ae4cbb28 ""
   (generated)
   "cas-sc-template.abs"

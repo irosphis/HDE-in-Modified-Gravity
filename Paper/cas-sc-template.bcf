@@ -2408,22 +2408,26 @@
     <bcf:citekey order="34" intorder="1">Xu_2019</bcf:citekey>
     <bcf:citekey order="35" intorder="1">J_rv_2018</bcf:citekey>
     <bcf:citekey order="36" intorder="1">Xu_2019</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">lu2019cosmologysymmetricteleparallelgravity</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">Xu_2019</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">Xu_2019</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">lu2019cosmologysymmetricteleparallelgravity</bcf:citekey>
     <bcf:citekey order="39" intorder="1">LI20041</bcf:citekey>
     <bcf:citekey order="40" intorder="1">PhysRevD.102.123525</bcf:citekey>
     <bcf:citekey order="41" intorder="1">singhStatefinderDiagnosisHolographic2016</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">Padilla_2021</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">emcee</bcf:citekey>
-    <bcf:citekey order="44" intorder="1">luongoDarkEnergyReconstructions2024</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">Beutler_2011</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">PhysRevD.103.083533</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">desicollaboration2024desi2024vicosmological</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">Favale_2023</bcf:citekey>
-    <bcf:citekey order="49" intorder="1">Scolnic_2022</bcf:citekey>
-    <bcf:citekey order="49" intorder="2">Brout_2022</bcf:citekey>
-    <bcf:citekey order="50" intorder="1">Lewis:2019xzd</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">pogosian2024consistencytestcosmologicalmodel</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">luongoDarkEnergyReconstructions2024</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">Beutler_2011</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">PhysRevD.103.083533</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">desicollaboration2024desi2024vicosmological</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">Padilla_2021</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">emcee</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">PhysRevD.103.083533</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">desicollaboration2024desi2024vicosmological</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">Beutler_2011</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">Favale_2023</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">Scolnic_2022</bcf:citekey>
+    <bcf:citekey order="52" intorder="2">Brout_2022</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">Lewis:2019xzd</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">rudraObservationalConstraintFRT2021</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">pogosian2024consistencytestcosmologicalmodel</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

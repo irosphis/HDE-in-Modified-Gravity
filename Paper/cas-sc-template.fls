@@ -396,8 +396,6 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmss9.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/stix/t1-stixgeneral-italic.tfm
 OUTPUT cas-sc-template.xdv
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmss10.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/stix/stix-mathrm.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/stix/stix-mathit.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/stix/stix-mathscr.tfm
@@ -412,12 +410,14 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/stix/stix-mathcal.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/stix/stix-mathsf.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/stix/stix-mathsfit.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/stix/stix-mathtt.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmss8.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmss8.tfm
 INPUT ./pic/getdist.eps
 INPUT ./pic/getdist.eps
 INPUT ./pic/getdist.eps
 INPUT ./pic/getdist.eps
+INPUT /usr/share/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/stix/stix-mathit-bold.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/stix/stix-mathit-bold.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/stix/stix-mathit-bold.tfm
