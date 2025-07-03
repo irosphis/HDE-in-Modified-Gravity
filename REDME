@@ -1,0 +1,17 @@
+# Holographic Dark Energy Models in $f(Q,T)$ Gravity and Cosmic Constraint
+
+Include jupyter notebook, mathmatica notebook code.
+
+MCMC chains and output figures are also available. 
+
+```bibtex
+@misc{zhang2025holographicdarkenergymodels,
+      title={Holographic dark energy models in $f(Q,T)$ gravity and cosmic constraint}, 
+      author={Xuwei Zhang and Xiaofeng Yang and Yunliang Ren and Shuangnan Chen and Yangjun Shi and Cheng Cheng and Xiaolong He},
+      year={2025},
+      eprint={2506.17933},
+      archivePrefix={arXiv},
+      primaryClass={astro-ph.CO},
+      url={https://arxiv.org/abs/2506.17933}, 
+}
+```
